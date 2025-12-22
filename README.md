@@ -60,16 +60,44 @@ cd ~/mrs_workspace/install/mrs_multirotor_simulator/share/mrs_multirotor_simulat
 
 All packages are built from source in this workspace except for proprietary system dependencies.
 
-## Updating
+## Cloning This Workspace
 
-To update all repositories and rebuild:
+To clone this complete workspace on another machine:
 
 ```bash
-cd ~/mrs_workspace/src
-git pull --recurse-submodules
+# Clone with all submodules
+git clone --recurse-submodules https://github.com/YOUR_USERNAME/mrs_workspace.git
+cd mrs_workspace
+
+# Run the installation script
+./install_mrs_workspace.sh
+```
+
+Or clone and then initialize submodules:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/mrs_workspace.git
+cd mrs_workspace
+git submodule update --init --recursive
+
+# Install dependencies and build
+./install_mrs_workspace.sh
+```
+
+## Updating
+
+To update the workspace and all submodules:
+
+```bash
+cd ~/mrs_workspace
+
+# Update main workspace repo
+git pull
+
+# Update all submodules to their latest commits on ros2 branch
+git submodule update --remote --merge
 
 # Rebuild
-cd ~/mrs_workspace
 colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 ```
 
