@@ -1,0 +1,32 @@
+[100%] Built target MrsUavAutostart_AutomaticStart
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/environment/library_path.sh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/environment/library_path.dsv
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/launch/automatic_start.launch.py
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/config/private/automatic_start.yaml
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/config/public/automatic_start.yaml
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/ament_index/resource_index/package_run_dependencies/mrs_uav_autostart
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/ament_index/resource_index/parent_prefix_path/mrs_uav_autostart
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/environment/path.sh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/environment/path.dsv
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/local_setup.bash
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/local_setup.sh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/local_setup.zsh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/local_setup.dsv
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/package.dsv
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/ament_index/resource_index/packages/mrs_uav_autostart
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/ament_index/resource_index/rclcpp_components/mrs_uav_autostart
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/cmake/mrs_uav_autostartConfig.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/cmake/mrs_uav_autostartConfig-version.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/package.xml
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/lib/libMrsUavAutostart_AutomaticStart.so
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/lib/mrs_uav_autostart/scripts
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/lib/mrs_uav_autostart/scripts/get_public_params.py
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/cmake/export_mrs_uav_autostartExport.cmake
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/cmake/export_mrs_uav_autostartExport-release.cmake

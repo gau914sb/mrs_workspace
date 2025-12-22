@@ -1,0 +1,76 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_modules_msgs/msg/gnss/GPSFix.msg
+// generated code does not contain a copyright notice
+
+#include "mrs_modules_msgs/msg/GpsStatus.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mrs_modules_msgs {
+  module msg {
+    typedef double double__9[9];
+    module GPSFix_Constants {
+      const uint8 COVARIANCE_TYPE_UNKNOWN = 0;
+      const uint8 COVARIANCE_TYPE_APPROXIMATED = 1;
+      const uint8 COVARIANCE_TYPE_DIAGONAL_KNOWN = 2;
+      const uint8 COVARIANCE_TYPE_KNOWN = 3;
+    };
+    @verbatim (language="comment", text=
+      "A more complete GPS fix to supplement sensor_msgs/NavSatFix." "\n"
+      "modified version of http://docs.ros.org/kinetic/api/gps_common/html/msg/GPSFix.html")
+    struct GPSFix {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Satellites used in solution" "\n"
+        "number of satellites")
+      uint8 num_satellites_used_in_solution;
+
+      @verbatim (language="comment", text=
+        "Satellites visible")
+      uint8 num_satellites_tracked;
+
+      @verbatim (language="comment", text=
+        "Measurement status")
+      mrs_modules_msgs::msg::GpsStatus status;
+
+      @verbatim (language="comment", text=
+        "Latitude (degrees). Positive is north of equator; negative is south.")
+      double latitude;
+
+      @verbatim (language="comment", text=
+        "Longitude (degrees). Positive is east of prime meridian, negative west.")
+      float longitude;
+
+      @verbatim (language="comment", text=
+        "Altitude (meters). Positive is above reference (e.g., sea level).")
+      double altitude;
+
+      @verbatim (language="comment", text=
+        "Direction (degrees from north)")
+      double track;
+
+      @verbatim (language="comment", text=
+        "Ground speed (meters/second)")
+      double speed;
+
+      @verbatim (language="comment", text=
+        "GPS time")
+      double time;
+
+      @verbatim (language="comment", text=
+        "Dilution of precision; Xdop<=0 means the value is unknown" "\n"
+        "Horizontal dilution of precision")
+      float hdop;
+
+      @verbatim (language="comment", text=
+        "Uncertainty of measurement, 95% confidence" "\n"
+        "Position covariance defined relative to a tangential plane" "\n"
+        "through the reported position. The components are East, North, and" "\n"
+        "Up (ENU), in row-major order.")
+      @unit (value="m^2")
+      double__9 position_covariance;
+
+      uint8 position_covariance_type;
+    };
+  };
+};

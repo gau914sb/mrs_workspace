@@ -1,0 +1,36 @@
+[ 66%] Built target MrsSerial_VioImu
+[ 66%] Built target MrsSerial_SerialPort
+[100%] Built target MrsSerial_VioImu_component
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/lib/mrs_serial/MrsSerial_VioImu
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/environment/library_path.sh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/environment/library_path.dsv
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/./include/mrs_serial/serial_port.h
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/./include/vio_imu.h
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/launch/vio_imu.launch.py
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/config/imu_default.yaml
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/ament_index/resource_index/package_run_dependencies/mrs_serial
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/ament_index/resource_index/parent_prefix_path/mrs_serial
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/environment/path.sh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/environment/path.dsv
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/local_setup.bash
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/local_setup.sh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/local_setup.zsh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/local_setup.dsv
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/package.dsv
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/ament_index/resource_index/packages/mrs_serial
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/ament_index/resource_index/rclcpp_components/mrs_serial
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/cmake/mrs_serialConfig.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/cmake/mrs_serialConfig-version.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/package.xml
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_serial/lib/libMrsSerial_SerialPort.so
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_serial/lib/libMrsSerial_VioImu_component.so
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/cmake/export_mrs_serialExport.cmake
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/cmake/export_mrs_serialExport-release.cmake

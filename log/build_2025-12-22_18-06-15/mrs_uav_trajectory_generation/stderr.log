@@ -1,0 +1,71 @@
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/rpoly/rpoly_ak1.cpp: In function ‘bool eth_trajectory_generation::findRootsJenkinsTraub(const Eigen::VectorXd&, Eigen::VectorXcd*)’:
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/rpoly/rpoly_ak1.cpp:99:24: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘const int’ [-Wsign-compare]
+   99 |   for (size_t i = 0; i < n_coefficients; i++) {
+      |                      ~~^~~~~~~~~~~~~~~~
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/rpoly/rpoly_ak1.cpp: In function ‘void eth_trajectory_generation::rpoly_impl::RealIT_ak1(int*, int*, double*, int, double*, int, double*, double*, double*, double*, double*)’:
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/rpoly/rpoly_ak1.cpp:832:45: warning: ‘omp’ may be used uninitialized [-Wmaybe-uninitialized]
+  832 |       if ((fabs(t) <= 0.001 * fabs(-t + s)) && (mp > omp)) {
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/rpoly/rpoly_ak1.cpp:793:26: note: ‘omp’ was declared here
+  793 |   double ee, kv, mp, ms, omp, pv, s, t;
+      |                          ^~~
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/rpoly/rpoly_ak1.cpp:832:39: warning: ‘t’ may be used uninitialized [-Wmaybe-uninitialized]
+  832 |       if ((fabs(t) <= 0.001 * fabs(-t + s)) && (mp > omp)) {
+      |                                    ~~~^~~
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/rpoly/rpoly_ak1.cpp:793:38: note: ‘t’ was declared here
+  793 |   double ee, kv, mp, ms, omp, pv, s, t;
+      |                                      ^
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/rpoly/rpoly_ak1.cpp: In function ‘void eth_trajectory_generation::rpoly_impl::QuadIT_ak1(int, int*, double, double, double*, double*, double*, double*, double*, int, double*, double*, double*, double*, double*, double*, double*, double*, double*, double*, double*, double*, double*)’:
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/rpoly/rpoly_ak1.cpp:741:28: warning: ‘omp’ may be used uninitialized [-Wmaybe-uninitialized]
+  741 |       if ((relstp <= 0.01) && (mp >= omp) && (!triedFlag)) {
+      |           ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/rpoly/rpoly_ak1.cpp:692:21: note: ‘omp’ was declared here
+  692 |   double c, ee, mp, omp, relstp, t, u, ui, v, vi, zm;
+      |                     ^~~
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/rpoly/rpoly_ak1.cpp:741:7: warning: ‘relstp’ may be used uninitialized [-Wmaybe-uninitialized]
+  741 |       if ((relstp <= 0.01) && (mp >= omp) && (!triedFlag)) {
+      |       ^~
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/rpoly/rpoly_ak1.cpp:692:26: note: ‘relstp’ was declared here
+  692 |   double c, ee, mp, omp, relstp, t, u, ui, v, vi, zm;
+      |                          ^~~~~~
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/segment.cpp: In member function ‘bool eth_trajectory_generation::Segment::selectMinMaxMagnitudeFromCandidates(int, double, double, const std::vector<int>&, const std::vector<eth_trajectory_generation::Extremum>&, eth_trajectory_generation::Extremum*, eth_trajectory_generation::Extremum*) const’:
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/segment.cpp:190:9: warning: unused parameter ‘derivative’ [-Wunused-parameter]
+  190 |     int derivative, double t_start, double t_end, const std::vector<int> &dimensions, const std::vector<Extremum> &candidates, Extremum *minimum,
+      |     ~~~~^~~~~~~~~~
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/segment.cpp:190:75: warning: unused parameter ‘dimensions’ [-Wunused-parameter]
+  190 |     int derivative, double t_start, double t_end, const std::vector<int> &dimensions, const std::vector<Extremum> &candidates, Extremum *minimum,
+      |                                                   ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/segment.cpp: In member function ‘bool eth_trajectory_generation::Segment::offsetSegment(const Eigen::VectorXd&)’:
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/segment.cpp:306:24: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘const int’ [-Wsign-compare]
+  306 |   for (size_t i = 0; i < std::min(D_, 3); ++i) {
+      |                      ~~^~~~~~~~~~~~~~~~~
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/vertex.cpp: In member function ‘bool eth_trajectory_generation::Vertex::getSubdimension(const std::vector<long unsigned int>&, int, eth_trajectory_generation::Vertex*) const’:
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/vertex.cpp:218:22: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘const int’ [-Wsign-compare]
+  218 |     if (subdimension >= D_)
+      |         ~~~~~~~~~~~~~^~~~~
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/vertex.cpp: In function ‘std::vector<double> eth_trajectory_generation::estimateSegmentTimesVelocityRamp(const Vertex::Vector&, double, double, double)’:
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/vertex.cpp:277:121: warning: unused parameter ‘time_factor’ [-Wunused-parameter]
+  277 | std::vector<double> estimateSegmentTimesVelocityRamp(const Vertex::Vector &vertices, double v_max, double a_max, double time_factor) {
+      |                                                                                                                  ~~~~~~~^~~~~~~~~~~
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/vertex.cpp: In function ‘std::vector<double> eth_trajectory_generation::estimateSegmentTimesEuclidean(const Vertex::Vector&, double, double, double, double, double, double, double, double)’:
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/vertex.cpp:495:10: warning: unused variable ‘v_max’ [-Wunused-variable]
+  495 |   double v_max = std::min(v_max_horizontal, v_max_vertical);
+      |          ^~~~~
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/vertex.cpp:492:64: warning: unused parameter ‘a_max_horizontal’ [-Wunused-parameter]
+  492 |                                                   const double a_max_horizontal, const double a_max_vertical, const double j_max_horizontal,
+      |                                                   ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/vertex.cpp:492:95: warning: unused parameter ‘a_max_vertical’ [-Wunused-parameter]
+  492 |                                                   const double a_max_horizontal, const double a_max_vertical, const double j_max_horizontal,
+      |                                                                                  ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/vertex.cpp:492:124: warning: unused parameter ‘j_max_horizontal’ [-Wunused-parameter]
+  492 |                                                   const double a_max_horizontal, const double a_max_vertical, const double j_max_horizontal,
+      |                                                                                                               ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/eth_trajectory_generation/vertex.cpp:493:64: warning: unused parameter ‘j_max_vertical’ [-Wunused-parameter]
+  493 |                                                   const double j_max_vertical, const double heading_speed_max, const double heading_acc_max) {
+      |                                                   ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+In file included from /home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/src/mrs_trajectory_generation.cpp:22:
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/include/eth_trajectory_generation/impl/polynomial_optimization_nonlinear_impl.h: In function ‘std::ostream& eth_trajectory_generation::operator<<(std::ostream&, const OptimizationInfo&)’:
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/include/eth_trajectory_generation/impl/polynomial_optimization_nonlinear_impl.h:39:40: warning: loop variable ‘m’ of type ‘const std::pair<int, eth_trajectory_generation::Extremum>&’ binds to a temporary constructed from type ‘const std::pair<const int, eth_trajectory_generation::Extremum>’ [-Wrange-loop-construct]
+   39 |   for (const std::pair<int, Extremum> &m : val.maxima) {
+      |                                        ^
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_trajectory_generation/include/eth_trajectory_generation/impl/polynomial_optimization_nonlinear_impl.h:39:40: note: use non-reference type ‘const std::pair<int, eth_trajectory_generation::Extremum>’ to make the copy explicit or ‘const std::pair<const int, eth_trajectory_generation::Extremum>&’ to prevent copying

@@ -1,0 +1,4 @@
+/home/gaurav/mrs_workspace/install/mrs_uav_autostart/lib/libMrsUavAutostart_AutomaticStart.so
+/home/gaurav/mrs_workspace/install/mrs_uav_autostart/lib/mrs_uav_autostart/scripts/get_public_params.py
+/home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/cmake/export_mrs_uav_autostartExport.cmake
+/home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/cmake/export_mrs_uav_autostartExport-release.cmake

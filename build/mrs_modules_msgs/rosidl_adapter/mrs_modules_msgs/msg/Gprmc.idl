@@ -1,0 +1,51 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_modules_msgs/msg/gnss/Gprmc.msg
+// generated code does not contain a copyright notice
+
+#include "mrs_modules_msgs/msg/GpsStatus.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mrs_modules_msgs {
+  module msg {
+    module Gprmc_Constants {
+      const string MODE_INDICATIOR_AUTONOMOUS = "a";
+      const string MODE_INDICATIOR_DIFFERENTIAL = "d";
+      const string MODE_INDICATIOR_ESTIMATED = "e";
+      const string MODE_INDICATIOR_MANUAL = "m";
+      const string MODE_INDICATIOR_DATA_NOT_VALID = "n";
+    };
+    @verbatim (language="comment", text=
+      "Message from GPRMC NMEA String")
+    struct Gprmc {
+      std_msgs::msg::Header header;
+
+      string message_id;
+
+      double utc_seconds;
+
+      mrs_modules_msgs::msg::GpsStatus position_status;
+
+      double latitude;
+
+      double longitude;
+
+      string latitude_dir;
+
+      string longitude_dir;
+
+      @verbatim (language="comment", text=
+        "in metres per second")
+      float speed;
+
+      float track;
+
+      string date;
+
+      float mag_var;
+
+      string mag_var_direction;
+
+      string mode_indicator;
+    };
+  };
+};

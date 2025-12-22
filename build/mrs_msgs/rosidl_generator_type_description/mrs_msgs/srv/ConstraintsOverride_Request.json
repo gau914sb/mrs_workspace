@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mrs_msgs/srv/ConstraintsOverride_Request",
+      "fields": [
+        {
+          "name": "acceleration_horizontal",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "acceleration_vertical",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mrs_msgs/srv/ConstraintsOverride_Request",
+      "hash_string": "RIHS01_6955961b4f96d34ee21cbc8b0921eebf2ade7d4bc4f2c0db042c7389a2b8b124"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/general/RangeWithCovarianceIdentified.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Range.idl"
+
+module mrs_msgs {
+  module msg {
+    struct RangeWithCovarianceIdentified {
+      uint64 id;
+
+      sensor_msgs::msg::Range range;
+
+      double variance;
+
+      double power_a;
+
+      double power_b;
+    };
+  };
+};

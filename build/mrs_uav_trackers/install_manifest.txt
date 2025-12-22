@@ -1,0 +1,8 @@
+/home/gaurav/mrs_workspace/install/mrs_uav_trackers/lib/libMrsUavTrackers_LandoffTracker.so
+/home/gaurav/mrs_workspace/install/mrs_uav_trackers/lib/libMrsUavTrackers_LineTracker.so
+/home/gaurav/mrs_workspace/install/mrs_uav_trackers/lib/libMrsUavTrackers_MpcTracker.so
+/home/gaurav/mrs_workspace/install/mrs_uav_trackers/lib/libMrsUavTrackers_MidairActivationTracker.so
+/home/gaurav/mrs_workspace/install/mrs_uav_trackers/lib/libMrsUavTrackers_FlipTracker.so
+/home/gaurav/mrs_workspace/install/mrs_uav_trackers/lib/mrs_uav_trackers/scripts/get_public_params.py
+/home/gaurav/mrs_workspace/install/mrs_uav_trackers/share/mrs_uav_trackers/cmake/export_mrs_uav_trackersExport.cmake
+/home/gaurav/mrs_workspace/install/mrs_uav_trackers/share/mrs_uav_trackers/cmake/export_mrs_uav_trackersExport-release.cmake

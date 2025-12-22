@@ -1,0 +1,1 @@
+/home/gaurav/mrs_workspace/build/mrs_msgs/rosidl_typesupport_fastrtps_c/mrs_msgs/msg/detail/hw_api_status__rosidl_typesupport_fastrtps_c.h

@@ -1,0 +1,34 @@
+[0.009s] Invoking command in '/home/gaurav/mrs_workspace/build/mrs_uav_testing': CMAKE_PREFIX_PATH=/home/gaurav/mrs_workspace/install/mrs_lib:/home/gaurav/mrs_workspace/install/mrs_msgs:/home/gaurav/mrs_workspace/install/mrs_uav_system_full:/home/gaurav/mrs_workspace/install/mrs_uav_system:/home/gaurav/mrs_workspace/install/mrs_uav_core:/home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation:/home/gaurav/mrs_workspace/install/mrs_uav_trackers:/home/gaurav/mrs_workspace/install/mrs_uav_state_estimators:/home/gaurav/mrs_workspace/install/mrs_uav_controllers:/home/gaurav/mrs_workspace/install/mrs_uav_managers:/home/gaurav/mrs_workspace/install/mrs_multirotor_simulator:/home/gaurav/mrs_workspace/install/mrs_uav_hw_api:/home/gaurav/mrs_workspace/install/mrs_uav_autostart:/home/gaurav/mrs_workspace/install/mrs_uav_testing:/home/gaurav/mrs_workspace/install/mrs_uav_status:/home/gaurav/mrs_workspace/install/mrs_uav_modules:/home/gaurav/mrs_workspace/install/mrs_serial:/home/gaurav/mrs_workspace/install/mrs_rviz_plugins:/home/gaurav/mrs_workspace/install/mrs_modules_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/gaurav/mrs_workspace/install/mrs_lib/lib:/home/gaurav/mrs_workspace/install/mrs_msgs/lib:/home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/lib:/home/gaurav/mrs_workspace/install/mrs_uav_trackers/lib:/home/gaurav/mrs_workspace/install/mrs_uav_state_estimators/lib:/home/gaurav/mrs_workspace/install/mrs_uav_controllers/lib:/home/gaurav/mrs_workspace/install/mrs_uav_managers/lib:/home/gaurav/mrs_workspace/install/mrs_multirotor_simulator/lib:/home/gaurav/mrs_workspace/install/mrs_uav_hw_api/lib:/home/gaurav/mrs_workspace/install/mrs_uav_autostart/lib:/home/gaurav/mrs_workspace/install/mrs_uav_testing/lib:/home/gaurav/mrs_workspace/install/mrs_uav_status/lib:/home/gaurav/mrs_workspace/install/mrs_serial/lib:/home/gaurav/mrs_workspace/install/mrs_rviz_plugins/lib:/home/gaurav/mrs_workspace/install/mrs_modules_msgs/lib:/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake /home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_testing -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gaurav/mrs_workspace/install/mrs_uav_testing
+[0.043s] -- The C compiler identification is GNU 13.3.0
+[0.077s] -- The CXX compiler identification is GNU 13.3.0
+[0.088s] -- Detecting C compiler ABI info
+[0.138s] -- Detecting C compiler ABI info - done
+[0.144s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.144s] -- Detecting C compile features
+[0.144s] -- Detecting C compile features - done
+[0.151s] -- Detecting CXX compiler ABI info
+[0.213s] -- Detecting CXX compiler ABI info - done
+[0.219s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.219s] -- Detecting CXX compile features
+[0.220s] -- Detecting CXX compile features - done
+[0.221s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.317s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.362s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.380s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.405s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.414s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.424s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.435s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.484s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.486s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.538s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.551s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.568s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.614s] -- Found rclcpp_components: 28.1.13 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.635s] -- Found mrs_lib: 2.0.0 (/home/gaurav/mrs_workspace/install/mrs_lib/share/mrs_lib/cmake)
+[0.731s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.732s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.732s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.884s] -- Configuring done (0.9s)
+[0.894s] -- Generating done (0.0s)
+[0.896s] -- Build files have been written to: /home/gaurav/mrs_workspace/build/mrs_uav_testing

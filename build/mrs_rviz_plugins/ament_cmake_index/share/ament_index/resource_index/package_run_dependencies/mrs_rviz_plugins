@@ -1,0 +1,1 @@
+pluginlib;rviz_common;rviz_ogre_vendor;qtbase5-dev;mrs_msgs;image_transport;sensor_msgs;cv_bridge;pcl_msgs;eigen3_cmake_module;sophus;libpcl-all-dev;pcl_conversions;rclcpp;message_filters;std_msgs

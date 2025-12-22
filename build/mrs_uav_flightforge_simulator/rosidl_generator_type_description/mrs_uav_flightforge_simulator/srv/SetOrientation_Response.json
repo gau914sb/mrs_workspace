@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mrs_uav_flightforge_simulator/srv/SetOrientation_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "message",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mrs_uav_flightforge_simulator/srv/SetOrientation_Response",
+      "hash_string": "RIHS01_ee6bf6a3134cbd8488e8b03a1d0c30d252b7dbda7298fadcbfc8cc55e64015b8"
+    }
+  ]
+}

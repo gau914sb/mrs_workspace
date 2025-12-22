@@ -1,0 +1,53 @@
+[ 15%] Built target MrsUavTrajectoryGeneration_PathRandomFlier
+[ 84%] Built target MrsUavTrajectoryGeneration_EthTrajectoryGeneration
+[100%] Built target MrsUavTrajectoryGeneration_MrsTrajectoryGeneration
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/launch/path_random_flier.launch.py
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/launch/trajectory_generation.launch.py
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/config/private/path_random_flier.yaml
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/config/private/trajectory_generation.yaml
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/config/public/trajectory_generation.yaml
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/environment/library_path.sh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/environment/library_path.dsv
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/ament_index/resource_index/package_run_dependencies/mrs_uav_trajectory_generation
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/ament_index/resource_index/parent_prefix_path/mrs_uav_trajectory_generation
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/environment/path.sh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/environment/path.dsv
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/local_setup.bash
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/local_setup.sh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/local_setup.zsh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/local_setup.dsv
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/package.dsv
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/ament_index/resource_index/packages/mrs_uav_trajectory_generation
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/ament_index/resource_index/rclcpp_components/mrs_uav_trajectory_generation
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/cmake/mrs_uav_trajectory_generationConfig.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/cmake/mrs_uav_trajectory_generationConfig-version.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/package.xml
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/lib/libMrsUavTrajectoryGeneration_EthTrajectoryGeneration.so
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/lib/libMrsUavTrajectoryGeneration_MrsTrajectoryGeneration.so
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/lib/libMrsUavTrajectoryGeneration_PathRandomFlier.so
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/lib/mrs_uav_trajectory_generation/scripts
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/lib/mrs_uav_trajectory_generation/scripts/get_public_params.py
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/takeoff.sh
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/layout.json
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/session.yml
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/rviz.rviz
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/config
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/config/network_config.yaml
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/config/world_config.yaml
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/config/path_random_flier.yaml
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/config/simulator.yaml
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/config/custom_config.yaml
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/config/automatic_start.yaml
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/start.sh
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/kill.sh
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/cmake/export_mrs_uav_trajectory_generationExport.cmake
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/cmake/export_mrs_uav_trajectory_generationExport-release.cmake

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mrs_msgs/srv/GetBoolSrv_Request",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mrs_msgs/srv/GetBoolSrv_Request",
+      "hash_string": "RIHS01_a3f924fbaafef223c1474333d8bf627dd8360a4b87a3d91eae6d73b1fb79b671"
+    }
+  ]
+}

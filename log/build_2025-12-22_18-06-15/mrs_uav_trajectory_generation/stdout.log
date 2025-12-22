@@ -1,0 +1,104 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 28.1.13 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found mrs_msgs: 2.0.0 (/home/gaurav/mrs_workspace/install/mrs_msgs/share/mrs_msgs/cmake)
+-- Found mrs_lib: 2.0.0 (/home/gaurav/mrs_workspace/install/mrs_lib/share/mrs_lib/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found mrs_uav_testing: 2.0.0 (/home/gaurav/mrs_workspace/install/mrs_uav_testing/share/mrs_uav_testing/cmake)
+-- Found nlopt: 2.4.2 (/opt/ros/jazzy/share/nlopt/cmake)
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/gaurav/mrs_workspace/build/mrs_uav_trajectory_generation
+[ 30%] Building CXX object CMakeFiles/MrsUavTrajectoryGeneration_PathRandomFlier.dir/src/path_random_flier.cpp.o
+[ 30%] Building CXX object CMakeFiles/MrsUavTrajectoryGeneration_EthTrajectoryGeneration.dir/src/eth_trajectory_generation/segment.cpp.o
+[ 30%] Building CXX object CMakeFiles/MrsUavTrajectoryGeneration_EthTrajectoryGeneration.dir/src/eth_trajectory_generation/polynomial.cpp.o
+[ 30%] Building CXX object CMakeFiles/MrsUavTrajectoryGeneration_EthTrajectoryGeneration.dir/src/eth_trajectory_generation/timing.cpp.o
+[ 38%] Building CXX object CMakeFiles/MrsUavTrajectoryGeneration_EthTrajectoryGeneration.dir/src/eth_trajectory_generation/vertex.cpp.o
+[ 46%] Building CXX object CMakeFiles/MrsUavTrajectoryGeneration_EthTrajectoryGeneration.dir/src/eth_trajectory_generation/trajectory_sampling.cpp.o
+[ 53%] Building CXX object CMakeFiles/MrsUavTrajectoryGeneration_EthTrajectoryGeneration.dir/src/eth_trajectory_generation/trajectory.cpp.o
+[ 61%] Building CXX object CMakeFiles/MrsUavTrajectoryGeneration_EthTrajectoryGeneration.dir/src/eth_trajectory_generation/motion_defines.cpp.o
+[ 69%] Building CXX object CMakeFiles/MrsUavTrajectoryGeneration_EthTrajectoryGeneration.dir/src/eth_trajectory_generation/rpoly/rpoly_ak1.cpp.o
+[ 76%] Linking CXX shared library libMrsUavTrajectoryGeneration_EthTrajectoryGeneration.so
+[ 76%] Built target MrsUavTrajectoryGeneration_EthTrajectoryGeneration
+[ 84%] Building CXX object CMakeFiles/MrsUavTrajectoryGeneration_MrsTrajectoryGeneration.dir/src/mrs_trajectory_generation.cpp.o
+[ 92%] Linking CXX shared library libMrsUavTrajectoryGeneration_PathRandomFlier.so
+[ 92%] Built target MrsUavTrajectoryGeneration_PathRandomFlier
+[100%] Linking CXX shared library libMrsUavTrajectoryGeneration_MrsTrajectoryGeneration.so
+[100%] Built target MrsUavTrajectoryGeneration_MrsTrajectoryGeneration
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/launch/path_random_flier.launch.py
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/launch/trajectory_generation.launch.py
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/config/private/path_random_flier.yaml
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/config/private/trajectory_generation.yaml
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/config/public/trajectory_generation.yaml
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/environment/library_path.sh
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/environment/library_path.dsv
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/ament_index/resource_index/package_run_dependencies/mrs_uav_trajectory_generation
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/ament_index/resource_index/parent_prefix_path/mrs_uav_trajectory_generation
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/environment/ament_prefix_path.sh
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/environment/path.sh
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/environment/path.dsv
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/local_setup.bash
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/local_setup.sh
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/local_setup.zsh
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/local_setup.dsv
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/package.dsv
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/ament_index/resource_index/packages/mrs_uav_trajectory_generation
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/ament_index/resource_index/rclcpp_components/mrs_uav_trajectory_generation
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/cmake/mrs_uav_trajectory_generationConfig.cmake
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/cmake/mrs_uav_trajectory_generationConfig-version.cmake
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/package.xml
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/lib/libMrsUavTrajectoryGeneration_EthTrajectoryGeneration.so
+-- Set non-toolchain portion of runtime path of "/home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/lib/libMrsUavTrajectoryGeneration_EthTrajectoryGeneration.so" to ""
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/lib/libMrsUavTrajectoryGeneration_MrsTrajectoryGeneration.so
+-- Set non-toolchain portion of runtime path of "/home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/lib/libMrsUavTrajectoryGeneration_MrsTrajectoryGeneration.so" to ""
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/lib/libMrsUavTrajectoryGeneration_PathRandomFlier.so
+-- Set non-toolchain portion of runtime path of "/home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/lib/libMrsUavTrajectoryGeneration_PathRandomFlier.so" to ""
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/lib/mrs_uav_trajectory_generation/scripts
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/lib/mrs_uav_trajectory_generation/scripts/get_public_params.py
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/takeoff.sh
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/layout.json
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/session.yml
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/rviz.rviz
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/config
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/config/network_config.yaml
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/config/world_config.yaml
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/config/path_random_flier.yaml
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/config/simulator.yaml
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/config/custom_config.yaml
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/config/automatic_start.yaml
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/start.sh
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/tmux/path_random_flier/kill.sh
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/cmake/export_mrs_uav_trajectory_generationExport.cmake
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/cmake/export_mrs_uav_trajectory_generationExport-release.cmake

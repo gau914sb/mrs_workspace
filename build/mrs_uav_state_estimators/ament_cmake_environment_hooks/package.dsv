@@ -1,0 +1,4 @@
+source;share/mrs_uav_state_estimators/local_setup.bash
+source;share/mrs_uav_state_estimators/local_setup.dsv
+source;share/mrs_uav_state_estimators/local_setup.sh
+source;share/mrs_uav_state_estimators/local_setup.zsh

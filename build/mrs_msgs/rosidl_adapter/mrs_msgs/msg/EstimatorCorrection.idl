@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/uav_managers/EstimatorCorrection.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module mrs_msgs {
+  module msg {
+    struct EstimatorCorrection {
+      std_msgs::msg::Header header;
+
+      string estimator_name;
+
+      string name;
+
+      uint8 state_id;
+
+      sequence<double> state;
+
+      sequence<double> covariance;
+    };
+  };
+};

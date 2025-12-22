@@ -1,0 +1,13 @@
+{
+  "package_name": "mrs_uav_flightforge_simulator",
+  "output_dir": "/home/gaurav/mrs_workspace/build/mrs_uav_flightforge_simulator/rosidl_generator_type_description/mrs_uav_flightforge_simulator",
+  "idl_tuples": [
+    "/home/gaurav/mrs_workspace/build/mrs_uav_flightforge_simulator/rosidl_adapter/mrs_uav_flightforge_simulator:srv/SetOrientation.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

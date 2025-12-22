@@ -1,0 +1,4 @@
+/home/gaurav/mrs_workspace/install/mrs_serial/lib/libMrsSerial_SerialPort.so
+/home/gaurav/mrs_workspace/install/mrs_serial/lib/libMrsSerial_VioImu_component.so
+/home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/cmake/export_mrs_serialExport.cmake
+/home/gaurav/mrs_workspace/install/mrs_serial/share/mrs_serial/cmake/export_mrs_serialExport-release.cmake

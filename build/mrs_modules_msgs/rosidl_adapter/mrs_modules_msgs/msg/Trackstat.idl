@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_modules_msgs/msg/gnss/Trackstat.msg
+// generated code does not contain a copyright notice
+
+#include "mrs_modules_msgs/msg/TrackstatChannel.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mrs_modules_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Channel tracking status information for each of the receiver parallel channels")
+    struct Trackstat {
+      std_msgs::msg::Header header;
+
+      string solution_status;
+
+      string position_type;
+
+      @verbatim (language="comment", text=
+        "Tracking elevation cutff-off angle")
+      float cutoff;
+
+      sequence<mrs_modules_msgs::msg::TrackstatChannel> channels;
+    };
+  };
+};

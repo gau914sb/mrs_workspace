@@ -1,0 +1,1 @@
+/home/gaurav/mrs_workspace/build/mrs_uav_deployment/ament_cmake_environment_hooks/local_setup.bash

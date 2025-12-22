@@ -1,0 +1,64 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 28.1.13 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found mrs_msgs: 2.0.0 (/home/gaurav/mrs_workspace/install/mrs_msgs/share/mrs_msgs/cmake)
+-- Found mrs_lib: 2.0.0 (/home/gaurav/mrs_workspace/install/mrs_lib/share/mrs_lib/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found pluginlib: 5.4.3 (/opt/ros/jazzy/share/pluginlib/cmake)
+-- Found mrs_uav_hw_api: 2.0.0 (/home/gaurav/mrs_workspace/install/mrs_uav_hw_api/share/mrs_uav_hw_api/cmake)
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/gaurav/mrs_workspace/build/mrs_uav_managers
+[ 14%] Building CXX object CMakeFiles/MrsUavManagers_UavManager.dir/src/uav_manager.cpp.o
+[ 14%] Building CXX object CMakeFiles/MrsUavManagers_ControlManager.dir/src/control_manager/output_publisher.cpp.o
+[ 14%] Building CXX object CMakeFiles/MrsUavManagers_NullTracker.dir/src/null_tracker.cpp.o
+[ 19%] Building CXX object CMakeFiles/MrsUavManagers_EstimationManager.dir/src/estimation_manager/estimators/state_estimator.cpp.o
+[ 23%] Building CXX object CMakeFiles/MrsUavManagers_ControlManager.dir/src/control_manager/common/common.cpp.o
+[ 28%] Building CXX object CMakeFiles/MrsUavManagers_EstimationManager.dir/src/estimation_manager/estimator.cpp.o
+[ 38%] Building CXX object CMakeFiles/MrsUavManagers_EstimationManager.dir/src/estimation_manager/estimation_manager.cpp.o
+[ 38%] Building CXX object CMakeFiles/MrsUavManagers_ConstraintManager.dir/src/constraint_manager.cpp.o
+[ 42%] Building CXX object CMakeFiles/MrsUavManagers_ControlManager.dir/src/control_manager/control_manager.cpp.o
+[ 47%] Building CXX object CMakeFiles/MrsUavManagers_GainManager.dir/src/gain_manager.cpp.o
+[ 57%] Building CXX object CMakeFiles/MrsUavManagers_EstimationManager.dir/src/estimation_manager/estimators/agl_estimator.cpp.o
+[ 57%] Building CXX object CMakeFiles/MrsUavManagers_TransformManager.dir/src/transform_manager/transform_manager.cpp.o
+[ 61%] Linking CXX shared library libMrsUavManagers_NullTracker.so
+[ 61%] Built target MrsUavManagers_NullTracker
+[ 66%] Linking CXX shared library libMrsUavManagers_ConstraintManager.so
+[ 66%] Built target MrsUavManagers_ConstraintManager
+[ 71%] Linking CXX shared library libMrsUavManagers_GainManager.so
+[ 71%] Built target MrsUavManagers_GainManager
+[ 76%] Linking CXX shared library libMrsUavManagers_EstimationManager.so
+[ 76%] Built target MrsUavManagers_EstimationManager
+[ 80%] Linking CXX shared library libMrsUavManagers_TransformManager.so
+[ 80%] Built target MrsUavManagers_TransformManager
+[ 85%] Linking CXX shared library libMrsUavManagers_UavManager.so
+[ 85%] Built target MrsUavManagers_UavManager
+[ 90%] Linking CXX shared library libMrsUavManagers_ControlManager.so
+[ 90%] Built target MrsUavManagers_ControlManager
+[ 95%] Building CXX object CMakeFiles/MrsUavManagers_SafetyAreaManager.dir/src/safety_area_manager.cpp.o
+[100%] Linking CXX shared library libMrsUavManagers_SafetyAreaManager.so
+[100%] Built target MrsUavManagers_SafetyAreaManager

@@ -1,0 +1,62 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/trajectory_generation/Path.msg
+// generated code does not contain a copyright notice
+
+#include "mrs_msgs/msg/Reference.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mrs_msgs {
+  module msg {
+    struct Path {
+      std_msgs::msg::Header header;
+
+      int64 input_id;
+
+      boolean use_heading;
+
+      boolean fly_now;
+
+      boolean stop_at_waypoints;
+
+      boolean loop;
+
+      @verbatim (language="comment", text=
+        "how much time is given to the solver (fallback sampling is triggered after that)" "\n"
+        "used when > 0, value from the config is used otherwise")
+      @unit (value="s")
+      double max_execution_time;
+
+      @verbatim (language="comment", text=
+        "how much can the resulting trajectory deviate from the path" "\n"
+        "used when > 0, value from the config is used otherwise")
+      @unit (value="s")
+      double max_deviation_from_path;
+
+      @verbatim (language="comment", text=
+        "when true, the by-default-ON prepanding of the current state is disabled")
+      boolean dont_prepend_current_state;
+
+      @verbatim (language="comment", text=
+        "when true, the heading in the resulting trajectory will be tangential along the trajectory")
+      boolean override_heading_atan2;
+
+      boolean override_constraints;
+
+      double override_max_velocity_horizontal;
+
+      double override_max_acceleration_horizontal;
+
+      double override_max_jerk_horizontal;
+
+      double override_max_velocity_vertical;
+
+      double override_max_acceleration_vertical;
+
+      double override_max_jerk_vertical;
+
+      boolean relax_heading;
+
+      sequence<mrs_msgs::msg::Reference> points;
+    };
+  };
+};

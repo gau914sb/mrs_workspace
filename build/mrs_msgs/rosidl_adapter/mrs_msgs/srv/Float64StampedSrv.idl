@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mrs_msgs/srv/general/Float64StampedSrv.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module mrs_msgs {
+  module srv {
+    struct Float64StampedSrv_Request {
+      std_msgs::msg::Header header;
+
+      double value;
+    };
+    struct Float64StampedSrv_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

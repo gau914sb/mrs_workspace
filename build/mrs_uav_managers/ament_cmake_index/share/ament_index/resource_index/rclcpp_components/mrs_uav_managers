@@ -1,0 +1,7 @@
+mrs_uav_managers::estimation_manager::EstimationManager;lib/libMrsUavManagers_EstimationManager.so
+mrs_uav_managers::transform_manager::TransformManager;lib/libMrsUavManagers_TransformManager.so
+mrs_uav_managers::control_manager::ControlManager;lib/libMrsUavManagers_ControlManager.so
+mrs_uav_managers::safety_area_manager::SafetyAreaManager;lib/libMrsUavManagers_SafetyAreaManager.so
+mrs_uav_managers::uav_manager::UavManager;lib/libMrsUavManagers_UavManager.so
+mrs_uav_managers::constraint_manager::ConstraintManager;lib/libMrsUavManagers_ConstraintManager.so
+mrs_uav_managers::gain_manager::GainManager;lib/libMrsUavManagers_GainManager.so

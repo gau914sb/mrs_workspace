@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/hw_api/HwApiControlGroupCmd.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module mrs_msgs {
+  module msg {
+    struct HwApiControlGroupCmd {
+      builtin_interfaces::msg::Time stamp;
+
+      @verbatim (language="comment", text=
+        "4DOF control vector, in the Front-Left-Up body frame" "\n"
+        "" "\n"
+        "The control group signals are first passed through a mixer matrix," "\n"
+        "then desaturated and applied to the motor outputs [0, 1]." "\n"
+        "[-1, 1]")
+      float roll;
+
+      @verbatim (language="comment", text=
+        "[-1, 1]")
+      float pitch;
+
+      @verbatim (language="comment", text=
+        "[-1, 1]")
+      float yaw;
+
+      @verbatim (language="comment", text=
+        "[0, 1]")
+      float throttle;
+    };
+  };
+};

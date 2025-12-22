@@ -1,0 +1,54 @@
+[ 30%] Building CXX object CMakeFiles/MrsUavStatus_Acquisition.dir/src/topic_info.cpp.o
+[ 30%] Building CXX object CMakeFiles/MrsUavStatus_NcursesTest.dir/src/ncurses_test.cpp.o
+[ 30%] Building CXX object CMakeFiles/MrsUavStatus_Acquisition.dir/src/data_acquisition.cpp.o
+[ 40%] Building CXX object CMakeFiles/MrsUavStatus_Status.dir/src/menu.cpp.o
+[ 50%] Building CXX object CMakeFiles/MrsUavStatus_Status.dir/src/status.cpp.o
+[ 70%] Building CXX object CMakeFiles/MrsUavStatus_Status.dir/src/input_box.cpp.o
+[ 70%] Building CXX object CMakeFiles/MrsUavStatus_Status.dir/src/topic_info.cpp.o
+[ 80%] Linking CXX executable MrsUavStatus_NcursesTest
+[ 80%] Built target MrsUavStatus_NcursesTest
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_status/src/status.cpp: In member function ‘std::string mrs_uav_status::Status::callTerminal(const char*)’:
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_status/src/status.cpp:3810:42: warning: ignoring attributes on template argument ‘int (*)(FILE*)’ [-Wignored-attributes]
+ 3810 |   std::unique_ptr<FILE, decltype(&pclose)> pipe(popen(cmd, "r"), pclose);
+      |                                          ^
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_status/src/data_acquisition.cpp: In member function ‘void mrs_uav_status::Acquisition::callbackTfStatic(tf2_msgs::msg::TFMessage_<std::allocator<void> >::ConstSharedPtr)’:
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_status/src/data_acquisition.cpp:1685:8: warning: variable ‘got_new_tf_static’ set but not used [-Wunused-but-set-variable]
+ 1685 |   bool got_new_tf_static = false;
+      |        ^~~~~~~~~~~~~~~~~
+[ 90%] Linking CXX executable MrsUavStatus_Status
+[ 90%] Built target MrsUavStatus_Status
+[100%] Linking CXX shared library libMrsUavStatus_Acquisition.so
+[100%] Built target MrsUavStatus_Acquisition
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/lib/mrs_uav_status/MrsUavStatus_NcursesTest
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/lib/mrs_uav_status/MrsUavStatus_Status
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/launch/acquisition.launch.py
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/launch/ncurses_test.launch.py
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/config/public/default.yaml
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/environment/library_path.sh
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/environment/library_path.dsv
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/ament_index/resource_index/package_run_dependencies/mrs_uav_status
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/ament_index/resource_index/parent_prefix_path/mrs_uav_status
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/environment/ament_prefix_path.sh
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/environment/ament_prefix_path.dsv
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/environment/path.sh
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/environment/path.dsv
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/local_setup.bash
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/local_setup.sh
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/local_setup.zsh
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/local_setup.dsv
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/package.dsv
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/ament_index/resource_index/packages/mrs_uav_status
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/ament_index/resource_index/rclcpp_components/mrs_uav_status
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/cmake/mrs_uav_statusConfig.cmake
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/cmake/mrs_uav_statusConfig-version.cmake
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/package.xml
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_status/lib/libMrsUavStatus_Acquisition.so
+-- Set non-toolchain portion of runtime path of "/home/gaurav/mrs_workspace/install/mrs_uav_status/lib/libMrsUavStatus_Acquisition.so" to ""
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_status/lib/mrs_uav_status/scripts
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_status/lib/mrs_uav_status/scripts/get_public_params.py
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_status/lib/mrs_uav_status/scripts/status.sh
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/cmake/export_mrs_uav_statusExport.cmake
+-- Installing: /home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/cmake/export_mrs_uav_statusExport-release.cmake

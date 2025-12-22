@@ -1,0 +1,72 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/bumper/ObstacleSectors.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module mrs_msgs {
+  module msg {
+    module ObstacleSectors_Constants {
+      @verbatim (language="comment", text=
+        "Obstacle distance special values.")
+      const double OBSTACLE_NOT_DETECTED = -1.0;
+      const double OBSTACLE_NO_DATA = -2.0;
+      @verbatim (language="comment", text=
+        "Sensor types enum.")
+      const int8 SENSOR_NONE = -1;
+      const int8 SENSOR_DEPTH = 0;
+      const int8 SENSOR_LIDAR1D = 1;
+      const int8 SENSOR_LIDAR2D = 2;
+      const int8 SENSOR_LIDAR3D = 3;
+    };
+    @verbatim (language="comment", text=
+      "This message represents the output from the mrs_bumper package." "\n"
+      "" "\n"
+      "The *sectors* variable contains information about obstacles in the horizontal," "\n"
+      "bottom and up sectors. Horizontal sectors take up the first part of the array." "\n"
+      "Bottom and up sectors are the second and first elements from the end of the array:" "\n"
+      "sectors[0, 1, ..., n_horizontal_sectors-1] -> horizontal sectors" "\n"
+      "sectors[n_horizontal_sectors]              -> bottom sector" "\n"
+      "sectors[n_horizontal_sectors+1]            -> top sector" "\n"
+      "" "\n"
+      "The horizontal sectors are indexed counterclockwise, starting from the front facing" "\n"
+      "sector, relative to the MAV orientation (see picture below). The last two" "\n"
+      "elements of the *sectors* variable are the above and below sectors, respectively." "\n"
+      "" "\n"
+      "        TOP VIEW" "\n"
+      "        --------" "\n"
+      "" "\n"
+      "|      \         /            |" "\n"
+      "|       \   0   /   (forward) |" "\n"
+      "|        \     /        x     |" "\n"
+      "|                       ^     |" "\n"
+      "|          O O          |     |" "\n"
+      "|      1    X    3   <--* z   |" "\n"
+      "|          O O       y        |" "\n"
+      "|                             |" "\n"
+      "|        /     \              |" "\n"
+      "|       /   2   \             |" "\n"
+      "|      /         \            |")
+    struct ObstacleSectors {
+      @verbatim (language="comment", text=
+        "Time at which the data in this message was generated, coordinate frame ID.")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Number of horizontal bumper sectors (total number of sectors -2).")
+      uint32 n_horizontal_sectors;
+
+      @verbatim (language="comment", text=
+        "Vertical FOV of the individual horizontal sectors.")
+      double sectors_vertical_fov;
+
+      @verbatim (language="comment", text=
+        "Distance to closest detected obstacle in each sector.")
+      sequence<double> sectors;
+
+      @verbatim (language="comment", text=
+        "Sensor ID of the sensor, which was used for obstacle detection in each sector.")
+      sequence<int8> sector_sensors;
+    };
+  };
+};

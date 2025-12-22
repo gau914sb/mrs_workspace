@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/uav_managers/SafetyAreaManagerDiagnostics.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "mrs_msgs/msg/Prism.idl"
+#include "mrs_msgs/msg/WorldOrigin.idl"
+
+module mrs_msgs {
+  module msg {
+    struct SafetyAreaManagerDiagnostics {
+      builtin_interfaces::msg::Time stamp;
+
+      string uav_name;
+
+      mrs_msgs::msg::WorldOrigin world_origin;
+
+      boolean safety_area_enabled;
+
+      boolean position_valid_2d;
+
+      boolean position_valid_3d;
+
+      mrs_msgs::msg::Prism border;
+
+      boolean obstacles_present;
+
+      sequence<mrs_msgs::msg::Prism> obstacles;
+    };
+  };
+};

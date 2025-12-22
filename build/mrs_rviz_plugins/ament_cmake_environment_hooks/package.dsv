@@ -1,0 +1,4 @@
+source;share/mrs_rviz_plugins/local_setup.bash
+source;share/mrs_rviz_plugins/local_setup.dsv
+source;share/mrs_rviz_plugins/local_setup.sh
+source;share/mrs_rviz_plugins/local_setup.zsh

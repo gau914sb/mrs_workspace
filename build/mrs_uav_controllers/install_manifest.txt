@@ -1,0 +1,7 @@
+/home/gaurav/mrs_workspace/install/mrs_uav_controllers/lib/libMrsUavControllers_MpcController.so
+/home/gaurav/mrs_workspace/install/mrs_uav_controllers/lib/libMrsUavControllers_Se3Controller.so
+/home/gaurav/mrs_workspace/install/mrs_uav_controllers/lib/libMrsUavControllers_FailsafeController.so
+/home/gaurav/mrs_workspace/install/mrs_uav_controllers/lib/libMrsUavControllers_MidairActivationController.so
+/home/gaurav/mrs_workspace/install/mrs_uav_controllers/lib/mrs_uav_controllers/scripts/get_public_params.py
+/home/gaurav/mrs_workspace/install/mrs_uav_controllers/share/mrs_uav_controllers/cmake/export_mrs_uav_controllersExport.cmake
+/home/gaurav/mrs_workspace/install/mrs_uav_controllers/share/mrs_uav_controllers/cmake/export_mrs_uav_controllersExport-release.cmake

@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/trajectory_generation/ReferenceWithVelocity.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module mrs_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message defines a control reference with a Position+Heading.")
+    struct ReferenceWithVelocity {
+      geometry_msgs::msg::Point position;
+
+      @verbatim (language="comment", text=
+        "Heading is atan2() of XY-world projection of the UAV's body X-axis.")
+      double heading;
+
+      boolean enforce_velocity;
+
+      geometry_msgs::msg::Vector3 velocity;
+    };
+  };
+};

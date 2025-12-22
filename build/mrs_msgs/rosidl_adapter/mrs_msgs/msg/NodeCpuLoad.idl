@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/uav_status/NodeCpuLoad.msg
+// generated code does not contain a copyright notice
+
+
+module mrs_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "A list of names of all ROS nodes running on this UAV")
+    struct NodeCpuLoad {
+      sequence<string> node_names;
+
+      @verbatim (language="comment", text=
+        "A list of the corresponding CPU loads of these nodes relative to a single CPU core (i.e. a maximal load of a 2-core CPU is 200.0)")
+      sequence<float> cpu_loads;
+    };
+  };
+};

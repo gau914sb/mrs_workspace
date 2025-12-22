@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/trajectory_generation/PathWithVelocity.msg
+// generated code does not contain a copyright notice
+
+#include "mrs_msgs/msg/ReferenceWithVelocity.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mrs_msgs {
+  module msg {
+    struct PathWithVelocity {
+      std_msgs::msg::Header header;
+
+      int64 input_id;
+
+      boolean use_heading;
+
+      boolean fly_now;
+
+      boolean stop_at_waypoints;
+
+      boolean loop;
+
+      @verbatim (language="comment", text=
+        "if this is enabled, the slower velocity between the points and these overrides will be chosen")
+      boolean override_constraints;
+
+      double override_max_velocity_horizontal;
+
+      double override_max_acceleration_horizontal;
+
+      double override_max_velocity_vertical;
+
+      double override_max_acceleration_vertical;
+
+      boolean relax_heading;
+
+      sequence<mrs_msgs::msg::ReferenceWithVelocity> points;
+    };
+  };
+};

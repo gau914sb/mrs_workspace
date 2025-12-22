@@ -1,0 +1,7 @@
+/home/gaurav/mrs_workspace/install/mrs_uav_hw_api/include/mrs_uav_hw_api/mrs_uav_hw_api/api.h
+/home/gaurav/mrs_workspace/install/mrs_uav_hw_api/include/mrs_uav_hw_api/mrs_uav_hw_api/common_handlers.h
+/home/gaurav/mrs_workspace/install/mrs_uav_hw_api/include/mrs_uav_hw_api/mrs_uav_hw_api/publishers.h
+/home/gaurav/mrs_workspace/install/mrs_uav_hw_api/lib/libMrsUavHwApi_HwApiManager.so
+/home/gaurav/mrs_workspace/install/mrs_uav_hw_api/lib/libMrsUavHwApi_DummyApi.so
+/home/gaurav/mrs_workspace/install/mrs_uav_hw_api/share/mrs_uav_hw_api/cmake/export_mrs_uav_hw_apiExport.cmake
+/home/gaurav/mrs_workspace/install/mrs_uav_hw_api/share/mrs_uav_hw_api/cmake/export_mrs_uav_hw_apiExport-release.cmake

@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_modules_msgs/msg/gnss/Bestvel.msg
+// generated code does not contain a copyright notice
+
+#include "mrs_modules_msgs/msg/TersusMessageHeader.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mrs_modules_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "See section 3.1.4 BESTVEL in https://www.tersus-gnss.com/assets/upload/file/20180608173259349.pdf" "\n"
+      "--------------------------------------------------------------------------------------")
+    struct Bestvel {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "message 99")
+      mrs_modules_msgs::msg::TersusMessageHeader tersus_msg_header;
+
+      string solution_status;
+
+      string velocity_type;
+
+      @verbatim (language="comment", text=
+        "A measure of the latency in the velocity time tag in seconds.")
+      float latency;
+
+      @verbatim (language="comment", text=
+        "Differential age in seconds")
+      float age;
+
+      @verbatim (language="comment", text=
+        "Horizontal speed over ground, meters/second")
+      double horizontal_speed;
+
+      @verbatim (language="comment", text=
+        "Direction of motion over ground with respect to true North, degrees")
+      double track_ground;
+
+      @verbatim (language="comment", text=
+        "Vertical speed, where positive values correspond to increasing altitude, meters/second")
+      double vertical_speed;
+    };
+  };
+};

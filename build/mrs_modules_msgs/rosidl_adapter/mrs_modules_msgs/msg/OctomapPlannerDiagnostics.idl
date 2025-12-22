@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_modules_msgs/msg/mrs_octomap_planner/OctomapPlannerDiagnostics.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mrs_modules_msgs {
+  module msg {
+    struct OctomapPlannerDiagnostics {
+      std_msgs::msg::Header header;
+
+      boolean idle;
+
+      geometry_msgs::msg::Point desired_reference;
+
+      geometry_msgs::msg::Point best_goal;
+    };
+  };
+};

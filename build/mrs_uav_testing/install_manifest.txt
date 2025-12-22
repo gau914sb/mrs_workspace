@@ -1,0 +1,4 @@
+/home/gaurav/mrs_workspace/install/mrs_uav_testing/lib/libmrs_uav_testing.a
+/home/gaurav/mrs_workspace/install/mrs_uav_testing/include/mrs_uav_testing/mrs_uav_testing/test_generic.h
+/home/gaurav/mrs_workspace/install/mrs_uav_testing/share/mrs_uav_testing/cmake/export_mrs_uav_testingExport.cmake
+/home/gaurav/mrs_workspace/install/mrs_uav_testing/share/mrs_uav_testing/cmake/export_mrs_uav_testingExport-release.cmake

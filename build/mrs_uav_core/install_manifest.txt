@@ -1,0 +1,2 @@
+/home/gaurav/mrs_workspace/install/mrs_uav_core/lib/mrs_uav_core/scripts/refactor_rviz_config.sh
+/home/gaurav/mrs_workspace/install/mrs_uav_core/lib/mrs_uav_core/scripts/get_public_params.py

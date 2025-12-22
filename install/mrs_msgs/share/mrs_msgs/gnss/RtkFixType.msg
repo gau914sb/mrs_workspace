@@ -1,0 +1,1 @@
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_msgs/msg/gnss/RtkFixType.msg

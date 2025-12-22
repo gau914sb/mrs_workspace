@@ -1,0 +1,8 @@
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_status/src/status.cpp: In member function ‘std::string mrs_uav_status::Status::callTerminal(const char*)’:
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_status/src/status.cpp:3810:42: warning: ignoring attributes on template argument ‘int (*)(FILE*)’ [-Wignored-attributes]
+ 3810 |   std::unique_ptr<FILE, decltype(&pclose)> pipe(popen(cmd, "r"), pclose);
+      |                                          ^
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_status/src/data_acquisition.cpp: In member function ‘void mrs_uav_status::Acquisition::callbackTfStatic(tf2_msgs::msg::TFMessage_<std::allocator<void> >::ConstSharedPtr)’:
+/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_uav_status/src/data_acquisition.cpp:1685:8: warning: variable ‘got_new_tf_static’ set but not used [-Wunused-but-set-variable]
+ 1685 |   bool got_new_tf_static = false;
+      |        ^~~~~~~~~~~~~~~~~

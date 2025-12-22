@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/hw_api/HwApiStatus.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module mrs_msgs {
+  module msg {
+    struct HwApiStatus {
+      builtin_interfaces::msg::Time stamp;
+
+      @verbatim (language="comment", text=
+        "true if the interface is connected to the HW")
+      boolean connected;
+
+      @verbatim (language="comment", text=
+        "motors can be spinned")
+      boolean armed;
+
+      @verbatim (language="comment", text=
+        "under the control of the companion computer")
+      boolean offboard;
+
+      @verbatim (language="comment", text=
+        "string describing a particular mode")
+      string mode;
+    };
+  };
+};

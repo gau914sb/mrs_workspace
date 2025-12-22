@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/uav_managers/SafetyBorder.msg
+// generated code does not contain a copyright notice
+
+#include "mrs_msgs/msg/Prism.idl"
+
+module mrs_msgs {
+  module msg {
+    struct SafetyBorder {
+      mrs_msgs::msg::Prism prism;
+
+      @verbatim (language="comment", text=
+        "when true, if there are some obstacles loaded, the new safety zone will keep them, otherwise they will be removed")
+      boolean keep_obstacles;
+
+      @verbatim (language="comment", text=
+        "when true, the safety border centroid will be used to update the world origin")
+      boolean update_world_origin;
+    };
+  };
+};

@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/mpc_tracker/FutureTrajectory.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "mrs_msgs/msg/FuturePoint.idl"
+
+module mrs_msgs {
+  module msg {
+    struct FutureTrajectory {
+      builtin_interfaces::msg::Time stamp;
+
+      string uav_name;
+
+      int32 priority;
+
+      boolean collision_avoidance;
+
+      sequence<mrs_msgs::msg::FuturePoint> points;
+    };
+  };
+};

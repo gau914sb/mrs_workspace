@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/general/ImageLabeledArray.msg
+// generated code does not contain a copyright notice
+
+#include "mrs_msgs/msg/ImageLabeled.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mrs_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message represents an Image and corresponding camera label" "\n"
+      "Can be suitable for any multi camera setup as UVDar or stereo pair" "\n"
+      "to synchronise all images on a ROS level (check all timestamps and" "\n"
+      "collect them in one array with one timestamp)")
+    struct ImageLabeledArray {
+      std_msgs::msg::Header header;
+
+      sequence<mrs_msgs::msg::ImageLabeled> imgs_labeled;
+    };
+  };
+};

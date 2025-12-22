@@ -1,0 +1,3 @@
+source;share/mrs_uav_status/environment/ament_prefix_path.sh
+source;share/mrs_uav_status/environment/library_path.sh
+source;share/mrs_uav_status/environment/path.sh

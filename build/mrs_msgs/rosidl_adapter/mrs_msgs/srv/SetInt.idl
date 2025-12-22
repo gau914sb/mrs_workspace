@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mrs_msgs/srv/general/SetInt.srv
+// generated code does not contain a copyright notice
+
+
+module mrs_msgs {
+  module srv {
+    struct SetInt_Request {
+      int64 value;
+    };
+    struct SetInt_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

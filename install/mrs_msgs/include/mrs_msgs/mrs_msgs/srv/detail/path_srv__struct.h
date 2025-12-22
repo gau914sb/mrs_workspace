@@ -1,0 +1,1 @@
+/home/gaurav/mrs_workspace/build/mrs_msgs/rosidl_generator_c/mrs_msgs/srv/detail/path_srv__struct.h

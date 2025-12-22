@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_modules_msgs/msg/gnss/GpsStatus.msg
+// generated code does not contain a copyright notice
+
+
+module mrs_modules_msgs {
+  module msg {
+    module GpsStatus_Constants {
+      const uint32 GPS_QUALITY_NO_FIX = 0;
+      const uint32 GPS_QUALITY_SIGLE_POINT = 1;
+      const uint32 GPS_QUALITY_PSEUDORANGE_DIFFERENTIAL = 2;
+      const uint32 GPS_QUALITY_RTK_FIX = 4;
+      const uint32 GPS_QUALITY_RTK_FLOAT = 5;
+    };
+    struct GpsStatus {
+      uint32 quality;
+    };
+  };
+};

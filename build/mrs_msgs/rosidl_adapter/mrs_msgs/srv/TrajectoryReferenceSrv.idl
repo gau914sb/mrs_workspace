@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mrs_msgs/srv/uav_managers/TrajectoryReferenceSrv.srv
+// generated code does not contain a copyright notice
+
+#include "mrs_msgs/msg/TrajectoryReference.idl"
+
+module mrs_msgs {
+  module srv {
+    struct TrajectoryReferenceSrv_Request {
+      mrs_msgs::msg::TrajectoryReference trajectory;
+    };
+    struct TrajectoryReferenceSrv_Response {
+      @verbatim (language="comment", text=
+        "response of the currently active tracker")
+      boolean success;
+
+      string message;
+
+      boolean modified;
+
+      @verbatim (language="comment", text=
+        "responses of each loaded tracker")
+      sequence<string> tracker_names;
+
+      sequence<boolean> tracker_successes;
+
+      sequence<string> tracker_messages;
+    };
+  };
+};

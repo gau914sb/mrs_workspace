@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/mpc_tracker/MpcTrackerDiagnostics.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mrs_msgs {
+  module msg {
+    struct MpcTrackerDiagnostics {
+      std_msgs::msg::Header header;
+
+      string uav_name;
+
+      boolean active;
+
+      boolean collision_avoidance_active;
+
+      boolean avoiding_collision;
+
+      sequence<string> avoidance_active_uavs;
+
+      geometry_msgs::msg::Pose setpoint;
+    };
+  };
+};

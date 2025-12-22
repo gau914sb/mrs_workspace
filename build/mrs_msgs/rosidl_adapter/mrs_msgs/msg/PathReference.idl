@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/uav_managers/PathReference.msg
+// generated code does not contain a copyright notice
+
+#include "mrs_msgs/msg/Reference.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mrs_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "The Path reference")
+    struct PathReference {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "True if the heading part should be tracked, otherwise the tracker should maintain the current heading.")
+      boolean use_heading;
+
+      @verbatim (language="comment", text=
+        "True if a planner should start being tracked immediately after receiving it." "\n"
+        "Beware the header time stamp matters in this case.")
+      boolean fly_now;
+
+      @verbatim (language="comment", text=
+        "True if the path should be looped.")
+      boolean loop;
+
+      @verbatim (language="comment", text=
+        "The list of points in the path.")
+      sequence<mrs_msgs::msg::Reference> points;
+    };
+  };
+};

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_modules_msgs/msg/sensors/SensorInfo.msg
+// generated code does not contain a copyright notice
+
+
+module mrs_modules_msgs {
+  module msg {
+    module SensorInfo_Constants {
+      @verbatim (language="comment", text=
+        "sensor type")
+      const uint8 SENSOR_TYPE_UNKNOWN = 0;
+      const uint8 SENSOR_TYPE_CAMERA = 1;
+      const uint8 SENSOR_TYPE_LIDAR_1D = 2;
+      const uint8 SENSOR_TYPE_LIDAR_2D = 3;
+      const uint8 ENSOR_TYPE_LIDAR_3D = 4;
+    };
+    @verbatim (language="comment", text=
+      "name of the sensor")
+    struct SensorInfo {
+      string name;
+
+      string topic;
+
+      uint8 type;
+
+      float expected_rate;
+    };
+  };
+};

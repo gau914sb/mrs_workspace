@@ -1,0 +1,333 @@
+# generated from rosidl_generator_py/resource/_idl.py.em
+# with input from mrs_modules_msgs:msg/RangeInformation.idl
+# generated code does not contain a copyright notice
+
+# This is being done at the module level and not on the instance level to avoid looking
+# for the same variable multiple times on each instance. This variable is not supposed to
+# change during runtime so it makes sense to only look for it once.
+from os import getenv
+
+ros_python_check_fields = getenv('ROS_PYTHON_CHECK_FIELDS', default='')
+
+
+# Import statements for member types
+
+import builtins  # noqa: E402, I100
+
+import math  # noqa: E402, I100
+
+import rosidl_parser.definition  # noqa: E402, I100
+
+
+class Metaclass_RangeInformation(type):
+    """Metaclass of message 'RangeInformation'."""
+
+    _CREATE_ROS_MESSAGE = None
+    _CONVERT_FROM_PY = None
+    _CONVERT_TO_PY = None
+    _DESTROY_ROS_MESSAGE = None
+    _TYPE_SUPPORT = None
+
+    __constants = {
+    }
+
+    @classmethod
+    def __import_type_support__(cls):
+        try:
+            from rosidl_generator_py import import_type_support
+            module = import_type_support('mrs_modules_msgs')
+        except ImportError:
+            import logging
+            import traceback
+            logger = logging.getLogger(
+                'mrs_modules_msgs.msg.RangeInformation')
+            logger.debug(
+                'Failed to import needed modules for type support:\n' +
+                traceback.format_exc())
+        else:
+            cls._CREATE_ROS_MESSAGE = module.create_ros_message_msg__msg__range_information
+            cls._CONVERT_FROM_PY = module.convert_from_py_msg__msg__range_information
+            cls._CONVERT_TO_PY = module.convert_to_py_msg__msg__range_information
+            cls._TYPE_SUPPORT = module.type_support_msg__msg__range_information
+            cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__msg__range_information
+
+    @classmethod
+    def __prepare__(cls, name, bases, **kwargs):
+        # list constant names here so that they appear in the help text of
+        # the message class under "Data and other attributes defined here:"
+        # as well as populate each message instance
+        return {
+        }
+
+
+class RangeInformation(metaclass=Metaclass_RangeInformation):
+    """Message class 'RangeInformation'."""
+
+    __slots__ = [
+        '_prn_number',
+        '_glofreq',
+        '_psr',
+        '_psr_std',
+        '_adr',
+        '_adr_std',
+        '_dopp',
+        '_noise_density_ratio',
+        '_locktime',
+        '_tracking_status',
+        '_check_fields',
+    ]
+
+    _fields_and_field_types = {
+        'prn_number': 'uint16',
+        'glofreq': 'uint16',
+        'psr': 'double',
+        'psr_std': 'float',
+        'adr': 'double',
+        'adr_std': 'float',
+        'dopp': 'float',
+        'noise_density_ratio': 'float',
+        'locktime': 'float',
+        'tracking_status': 'uint32',
+    }
+
+    # This attribute is used to store an rosidl_parser.definition variable
+    # related to the data type of each of the components the message.
+    SLOT_TYPES = (
+        rosidl_parser.definition.BasicType('uint16'),  # noqa: E501
+        rosidl_parser.definition.BasicType('uint16'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('uint32'),  # noqa: E501
+    )
+
+    def __init__(self, **kwargs):
+        if 'check_fields' in kwargs:
+            self._check_fields = kwargs['check_fields']
+        else:
+            self._check_fields = ros_python_check_fields == '1'
+        if self._check_fields:
+            assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
+                'Invalid arguments passed to constructor: %s' % \
+                ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        self.prn_number = kwargs.get('prn_number', int())
+        self.glofreq = kwargs.get('glofreq', int())
+        self.psr = kwargs.get('psr', float())
+        self.psr_std = kwargs.get('psr_std', float())
+        self.adr = kwargs.get('adr', float())
+        self.adr_std = kwargs.get('adr_std', float())
+        self.dopp = kwargs.get('dopp', float())
+        self.noise_density_ratio = kwargs.get('noise_density_ratio', float())
+        self.locktime = kwargs.get('locktime', float())
+        self.tracking_status = kwargs.get('tracking_status', int())
+
+    def __repr__(self):
+        typename = self.__class__.__module__.split('.')
+        typename.pop()
+        typename.append(self.__class__.__name__)
+        args = []
+        for s, t in zip(self.get_fields_and_field_types().keys(), self.SLOT_TYPES):
+            field = getattr(self, s)
+            fieldstr = repr(field)
+            # We use Python array type for fields that can be directly stored
+            # in them, and "normal" sequences for everything else.  If it is
+            # a type that we store in an array, strip off the 'array' portion.
+            if (
+                isinstance(t, rosidl_parser.definition.AbstractSequence) and
+                isinstance(t.value_type, rosidl_parser.definition.BasicType) and
+                t.value_type.typename in ['float', 'double', 'int8', 'uint8', 'int16', 'uint16', 'int32', 'uint32', 'int64', 'uint64']
+            ):
+                if len(field) == 0:
+                    fieldstr = '[]'
+                else:
+                    if self._check_fields:
+                        assert fieldstr.startswith('array(')
+                    prefix = "array('X', "
+                    suffix = ')'
+                    fieldstr = fieldstr[len(prefix):-len(suffix)]
+            args.append(s + '=' + fieldstr)
+        return '%s(%s)' % ('.'.join(typename), ', '.join(args))
+
+    def __eq__(self, other):
+        if not isinstance(other, self.__class__):
+            return False
+        if self.prn_number != other.prn_number:
+            return False
+        if self.glofreq != other.glofreq:
+            return False
+        if self.psr != other.psr:
+            return False
+        if self.psr_std != other.psr_std:
+            return False
+        if self.adr != other.adr:
+            return False
+        if self.adr_std != other.adr_std:
+            return False
+        if self.dopp != other.dopp:
+            return False
+        if self.noise_density_ratio != other.noise_density_ratio:
+            return False
+        if self.locktime != other.locktime:
+            return False
+        if self.tracking_status != other.tracking_status:
+            return False
+        return True
+
+    @classmethod
+    def get_fields_and_field_types(cls):
+        from copy import copy
+        return copy(cls._fields_and_field_types)
+
+    @builtins.property
+    def prn_number(self):
+        """Message field 'prn_number'."""
+        return self._prn_number
+
+    @prn_number.setter
+    def prn_number(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, int), \
+                "The 'prn_number' field must be of type 'int'"
+            assert value >= 0 and value < 65536, \
+                "The 'prn_number' field must be an unsigned integer in [0, 65535]"
+        self._prn_number = value
+
+    @builtins.property
+    def glofreq(self):
+        """Message field 'glofreq'."""
+        return self._glofreq
+
+    @glofreq.setter
+    def glofreq(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, int), \
+                "The 'glofreq' field must be of type 'int'"
+            assert value >= 0 and value < 65536, \
+                "The 'glofreq' field must be an unsigned integer in [0, 65535]"
+        self._glofreq = value
+
+    @builtins.property
+    def psr(self):
+        """Message field 'psr'."""
+        return self._psr
+
+    @psr.setter
+    def psr(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, float), \
+                "The 'psr' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'psr' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._psr = value
+
+    @builtins.property
+    def psr_std(self):
+        """Message field 'psr_std'."""
+        return self._psr_std
+
+    @psr_std.setter
+    def psr_std(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, float), \
+                "The 'psr_std' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'psr_std' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._psr_std = value
+
+    @builtins.property
+    def adr(self):
+        """Message field 'adr'."""
+        return self._adr
+
+    @adr.setter
+    def adr(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, float), \
+                "The 'adr' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'adr' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._adr = value
+
+    @builtins.property
+    def adr_std(self):
+        """Message field 'adr_std'."""
+        return self._adr_std
+
+    @adr_std.setter
+    def adr_std(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, float), \
+                "The 'adr_std' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'adr_std' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._adr_std = value
+
+    @builtins.property
+    def dopp(self):
+        """Message field 'dopp'."""
+        return self._dopp
+
+    @dopp.setter
+    def dopp(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, float), \
+                "The 'dopp' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'dopp' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._dopp = value
+
+    @builtins.property
+    def noise_density_ratio(self):
+        """Message field 'noise_density_ratio'."""
+        return self._noise_density_ratio
+
+    @noise_density_ratio.setter
+    def noise_density_ratio(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, float), \
+                "The 'noise_density_ratio' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'noise_density_ratio' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._noise_density_ratio = value
+
+    @builtins.property
+    def locktime(self):
+        """Message field 'locktime'."""
+        return self._locktime
+
+    @locktime.setter
+    def locktime(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, float), \
+                "The 'locktime' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'locktime' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._locktime = value
+
+    @builtins.property
+    def tracking_status(self):
+        """Message field 'tracking_status'."""
+        return self._tracking_status
+
+    @tracking_status.setter
+    def tracking_status(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, int), \
+                "The 'tracking_status' field must be of type 'int'"
+            assert value >= 0 and value < 4294967296, \
+                "The 'tracking_status' field must be an unsigned integer in [0, 4294967295]"
+        self._tracking_status = value

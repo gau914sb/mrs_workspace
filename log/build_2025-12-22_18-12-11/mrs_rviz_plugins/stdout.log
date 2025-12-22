@@ -1,0 +1,43 @@
+[  0%] Built target MrsRvizPlugins_Sphere_autogen_timestamp_deps
+[  0%] Built target MrsRvizPlugins_TexturedMeshDisplay_autogen_timestamp_deps
+[  5%] Built target MrsRvizPlugins_TexturedMeshDisplay_autogen
+[ 10%] Built target MrsRvizPlugins_Sphere_autogen
+[ 52%] Built target MrsRvizPlugins_TexturedMeshDisplay
+[100%] Built target MrsRvizPlugins_Sphere
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins//plugins.xml
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/./include/mrs_rviz_plugins/sphere/display.h
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/./include/mrs_rviz_plugins/sphere/visual.h
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/./include/mrs_rviz_plugins/textured_mesh_display/surface_normals_visual.hpp
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/./include/mrs_rviz_plugins/textured_mesh_display/textured_mesh_display.hpp
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/./include/mrs_rviz_plugins/textured_mesh_display/textured_mesh_visual.hpp
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/./include/mrs_rviz_plugins/textured_mesh_display/visual.hpp
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/launch/load_robot.launch
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/plugins.xml
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/environment/library_path.sh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/environment/library_path.dsv
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/mrs_rviz_plugins
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/mrs_rviz_plugins
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/environment/path.sh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/environment/path.dsv
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/local_setup.bash
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/local_setup.sh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/local_setup.zsh
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/local_setup.dsv
+-- Symlinking: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/package.dsv
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/ament_index/resource_index/packages/mrs_rviz_plugins
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/mrs_rviz_plugins
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/cmake/mrs_rviz_pluginsConfig.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/cmake/mrs_rviz_pluginsConfig-version.cmake
+-- Up-to-date symlink: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/package.xml
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/lib/libMrsRvizPlugins_Sphere.so
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/lib/libMrsRvizPlugins_TexturedMeshDisplay.so
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/cmake/export_mrs_rviz_pluginsExport.cmake
+-- Up-to-date: /home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/cmake/export_mrs_rviz_pluginsExport-release.cmake

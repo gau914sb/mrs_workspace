@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mrs_msgs/srv/uav_managers/TransformReferenceArraySrv.srv
+// generated code does not contain a copyright notice
+
+#include "mrs_msgs/msg/ReferenceArray.idl"
+
+module mrs_msgs {
+  module srv {
+    struct TransformReferenceArraySrv_Request {
+      string to_frame_id;
+
+      mrs_msgs::msg::ReferenceArray array;
+    };
+    struct TransformReferenceArraySrv_Response {
+      boolean success;
+
+      string message;
+
+      mrs_msgs::msg::ReferenceArray array;
+    };
+  };
+};

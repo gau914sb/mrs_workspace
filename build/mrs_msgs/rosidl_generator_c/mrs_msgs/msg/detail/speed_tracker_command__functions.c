@@ -1,0 +1,384 @@
+// generated from rosidl_generator_c/resource/idl__functions.c.em
+// with input from mrs_msgs:msg/SpeedTrackerCommand.idl
+// generated code does not contain a copyright notice
+#include "mrs_msgs/msg/detail/speed_tracker_command__functions.h"
+
+#include <assert.h>
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "rcutils/allocator.h"
+
+
+// Include directives for member types
+// Member `header`
+#include "std_msgs/msg/detail/header__functions.h"
+// Member `velocity`
+// Member `acceleration`
+// Member `force`
+#include "geometry_msgs/msg/detail/vector3__functions.h"
+
+bool
+mrs_msgs__msg__SpeedTrackerCommand__init(mrs_msgs__msg__SpeedTrackerCommand * msg)
+{
+  if (!msg) {
+    return false;
+  }
+  // header
+  if (!std_msgs__msg__Header__init(&msg->header)) {
+    mrs_msgs__msg__SpeedTrackerCommand__fini(msg);
+    return false;
+  }
+  // velocity
+  if (!geometry_msgs__msg__Vector3__init(&msg->velocity)) {
+    mrs_msgs__msg__SpeedTrackerCommand__fini(msg);
+    return false;
+  }
+  // acceleration
+  if (!geometry_msgs__msg__Vector3__init(&msg->acceleration)) {
+    mrs_msgs__msg__SpeedTrackerCommand__fini(msg);
+    return false;
+  }
+  // force
+  if (!geometry_msgs__msg__Vector3__init(&msg->force)) {
+    mrs_msgs__msg__SpeedTrackerCommand__fini(msg);
+    return false;
+  }
+  // z
+  // heading
+  // heading_rate
+  // use_velocity
+  // use_acceleration
+  // use_force
+  // use_z
+  // use_heading
+  // use_heading_rate
+  return true;
+}
+
+void
+mrs_msgs__msg__SpeedTrackerCommand__fini(mrs_msgs__msg__SpeedTrackerCommand * msg)
+{
+  if (!msg) {
+    return;
+  }
+  // header
+  std_msgs__msg__Header__fini(&msg->header);
+  // velocity
+  geometry_msgs__msg__Vector3__fini(&msg->velocity);
+  // acceleration
+  geometry_msgs__msg__Vector3__fini(&msg->acceleration);
+  // force
+  geometry_msgs__msg__Vector3__fini(&msg->force);
+  // z
+  // heading
+  // heading_rate
+  // use_velocity
+  // use_acceleration
+  // use_force
+  // use_z
+  // use_heading
+  // use_heading_rate
+}
+
+bool
+mrs_msgs__msg__SpeedTrackerCommand__are_equal(const mrs_msgs__msg__SpeedTrackerCommand * lhs, const mrs_msgs__msg__SpeedTrackerCommand * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  // header
+  if (!std_msgs__msg__Header__are_equal(
+      &(lhs->header), &(rhs->header)))
+  {
+    return false;
+  }
+  // velocity
+  if (!geometry_msgs__msg__Vector3__are_equal(
+      &(lhs->velocity), &(rhs->velocity)))
+  {
+    return false;
+  }
+  // acceleration
+  if (!geometry_msgs__msg__Vector3__are_equal(
+      &(lhs->acceleration), &(rhs->acceleration)))
+  {
+    return false;
+  }
+  // force
+  if (!geometry_msgs__msg__Vector3__are_equal(
+      &(lhs->force), &(rhs->force)))
+  {
+    return false;
+  }
+  // z
+  if (lhs->z != rhs->z) {
+    return false;
+  }
+  // heading
+  if (lhs->heading != rhs->heading) {
+    return false;
+  }
+  // heading_rate
+  if (lhs->heading_rate != rhs->heading_rate) {
+    return false;
+  }
+  // use_velocity
+  if (lhs->use_velocity != rhs->use_velocity) {
+    return false;
+  }
+  // use_acceleration
+  if (lhs->use_acceleration != rhs->use_acceleration) {
+    return false;
+  }
+  // use_force
+  if (lhs->use_force != rhs->use_force) {
+    return false;
+  }
+  // use_z
+  if (lhs->use_z != rhs->use_z) {
+    return false;
+  }
+  // use_heading
+  if (lhs->use_heading != rhs->use_heading) {
+    return false;
+  }
+  // use_heading_rate
+  if (lhs->use_heading_rate != rhs->use_heading_rate) {
+    return false;
+  }
+  return true;
+}
+
+bool
+mrs_msgs__msg__SpeedTrackerCommand__copy(
+  const mrs_msgs__msg__SpeedTrackerCommand * input,
+  mrs_msgs__msg__SpeedTrackerCommand * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  // header
+  if (!std_msgs__msg__Header__copy(
+      &(input->header), &(output->header)))
+  {
+    return false;
+  }
+  // velocity
+  if (!geometry_msgs__msg__Vector3__copy(
+      &(input->velocity), &(output->velocity)))
+  {
+    return false;
+  }
+  // acceleration
+  if (!geometry_msgs__msg__Vector3__copy(
+      &(input->acceleration), &(output->acceleration)))
+  {
+    return false;
+  }
+  // force
+  if (!geometry_msgs__msg__Vector3__copy(
+      &(input->force), &(output->force)))
+  {
+    return false;
+  }
+  // z
+  output->z = input->z;
+  // heading
+  output->heading = input->heading;
+  // heading_rate
+  output->heading_rate = input->heading_rate;
+  // use_velocity
+  output->use_velocity = input->use_velocity;
+  // use_acceleration
+  output->use_acceleration = input->use_acceleration;
+  // use_force
+  output->use_force = input->use_force;
+  // use_z
+  output->use_z = input->use_z;
+  // use_heading
+  output->use_heading = input->use_heading;
+  // use_heading_rate
+  output->use_heading_rate = input->use_heading_rate;
+  return true;
+}
+
+mrs_msgs__msg__SpeedTrackerCommand *
+mrs_msgs__msg__SpeedTrackerCommand__create(void)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  mrs_msgs__msg__SpeedTrackerCommand * msg = (mrs_msgs__msg__SpeedTrackerCommand *)allocator.allocate(sizeof(mrs_msgs__msg__SpeedTrackerCommand), allocator.state);
+  if (!msg) {
+    return NULL;
+  }
+  memset(msg, 0, sizeof(mrs_msgs__msg__SpeedTrackerCommand));
+  bool success = mrs_msgs__msg__SpeedTrackerCommand__init(msg);
+  if (!success) {
+    allocator.deallocate(msg, allocator.state);
+    return NULL;
+  }
+  return msg;
+}
+
+void
+mrs_msgs__msg__SpeedTrackerCommand__destroy(mrs_msgs__msg__SpeedTrackerCommand * msg)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  if (msg) {
+    mrs_msgs__msg__SpeedTrackerCommand__fini(msg);
+  }
+  allocator.deallocate(msg, allocator.state);
+}
+
+
+bool
+mrs_msgs__msg__SpeedTrackerCommand__Sequence__init(mrs_msgs__msg__SpeedTrackerCommand__Sequence * array, size_t size)
+{
+  if (!array) {
+    return false;
+  }
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  mrs_msgs__msg__SpeedTrackerCommand * data = NULL;
+
+  if (size) {
+    data = (mrs_msgs__msg__SpeedTrackerCommand *)allocator.zero_allocate(size, sizeof(mrs_msgs__msg__SpeedTrackerCommand), allocator.state);
+    if (!data) {
+      return false;
+    }
+    // initialize all array elements
+    size_t i;
+    for (i = 0; i < size; ++i) {
+      bool success = mrs_msgs__msg__SpeedTrackerCommand__init(&data[i]);
+      if (!success) {
+        break;
+      }
+    }
+    if (i < size) {
+      // if initialization failed finalize the already initialized array elements
+      for (; i > 0; --i) {
+        mrs_msgs__msg__SpeedTrackerCommand__fini(&data[i - 1]);
+      }
+      allocator.deallocate(data, allocator.state);
+      return false;
+    }
+  }
+  array->data = data;
+  array->size = size;
+  array->capacity = size;
+  return true;
+}
+
+void
+mrs_msgs__msg__SpeedTrackerCommand__Sequence__fini(mrs_msgs__msg__SpeedTrackerCommand__Sequence * array)
+{
+  if (!array) {
+    return;
+  }
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+
+  if (array->data) {
+    // ensure that data and capacity values are consistent
+    assert(array->capacity > 0);
+    // finalize all array elements
+    for (size_t i = 0; i < array->capacity; ++i) {
+      mrs_msgs__msg__SpeedTrackerCommand__fini(&array->data[i]);
+    }
+    allocator.deallocate(array->data, allocator.state);
+    array->data = NULL;
+    array->size = 0;
+    array->capacity = 0;
+  } else {
+    // ensure that data, size, and capacity values are consistent
+    assert(0 == array->size);
+    assert(0 == array->capacity);
+  }
+}
+
+mrs_msgs__msg__SpeedTrackerCommand__Sequence *
+mrs_msgs__msg__SpeedTrackerCommand__Sequence__create(size_t size)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  mrs_msgs__msg__SpeedTrackerCommand__Sequence * array = (mrs_msgs__msg__SpeedTrackerCommand__Sequence *)allocator.allocate(sizeof(mrs_msgs__msg__SpeedTrackerCommand__Sequence), allocator.state);
+  if (!array) {
+    return NULL;
+  }
+  bool success = mrs_msgs__msg__SpeedTrackerCommand__Sequence__init(array, size);
+  if (!success) {
+    allocator.deallocate(array, allocator.state);
+    return NULL;
+  }
+  return array;
+}
+
+void
+mrs_msgs__msg__SpeedTrackerCommand__Sequence__destroy(mrs_msgs__msg__SpeedTrackerCommand__Sequence * array)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  if (array) {
+    mrs_msgs__msg__SpeedTrackerCommand__Sequence__fini(array);
+  }
+  allocator.deallocate(array, allocator.state);
+}
+
+bool
+mrs_msgs__msg__SpeedTrackerCommand__Sequence__are_equal(const mrs_msgs__msg__SpeedTrackerCommand__Sequence * lhs, const mrs_msgs__msg__SpeedTrackerCommand__Sequence * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  if (lhs->size != rhs->size) {
+    return false;
+  }
+  for (size_t i = 0; i < lhs->size; ++i) {
+    if (!mrs_msgs__msg__SpeedTrackerCommand__are_equal(&(lhs->data[i]), &(rhs->data[i]))) {
+      return false;
+    }
+  }
+  return true;
+}
+
+bool
+mrs_msgs__msg__SpeedTrackerCommand__Sequence__copy(
+  const mrs_msgs__msg__SpeedTrackerCommand__Sequence * input,
+  mrs_msgs__msg__SpeedTrackerCommand__Sequence * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  if (output->capacity < input->size) {
+    const size_t allocation_size =
+      input->size * sizeof(mrs_msgs__msg__SpeedTrackerCommand);
+    rcutils_allocator_t allocator = rcutils_get_default_allocator();
+    mrs_msgs__msg__SpeedTrackerCommand * data =
+      (mrs_msgs__msg__SpeedTrackerCommand *)allocator.reallocate(
+      output->data, allocation_size, allocator.state);
+    if (!data) {
+      return false;
+    }
+    // If reallocation succeeded, memory may or may not have been moved
+    // to fulfill the allocation request, invalidating output->data.
+    output->data = data;
+    for (size_t i = output->capacity; i < input->size; ++i) {
+      if (!mrs_msgs__msg__SpeedTrackerCommand__init(&output->data[i])) {
+        // If initialization of any new item fails, roll back
+        // all previously initialized items. Existing items
+        // in output are to be left unmodified.
+        for (; i-- > output->capacity; ) {
+          mrs_msgs__msg__SpeedTrackerCommand__fini(&output->data[i]);
+        }
+        return false;
+      }
+    }
+    output->capacity = input->size;
+  }
+  output->size = input->size;
+  for (size_t i = 0; i < input->size; ++i) {
+    if (!mrs_msgs__msg__SpeedTrackerCommand__copy(
+        &(input->data[i]), &(output->data[i])))
+    {
+      return false;
+    }
+  }
+  return true;
+}

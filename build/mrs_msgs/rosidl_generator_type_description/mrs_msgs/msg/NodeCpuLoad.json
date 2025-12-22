@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mrs_msgs/msg/NodeCpuLoad",
+      "fields": [
+        {
+          "name": "node_names",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "cpu_loads",
+          "type": {
+            "type_id": 154,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mrs_msgs/msg/NodeCpuLoad",
+      "hash_string": "RIHS01_b5d6d53300f903b665a75816248ee87392d78d4f010a79633d163742ba97ec11"
+    }
+  ]
+}

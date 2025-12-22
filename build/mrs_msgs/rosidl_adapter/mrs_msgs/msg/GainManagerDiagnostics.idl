@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/uav_managers/GainManagerDiagnostics.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "mrs_msgs/msg/Se3Gains.idl"
+
+module mrs_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "The diagnostics of the GainManager.")
+    struct GainManagerDiagnostics {
+      builtin_interfaces::msg::Time stamp;
+
+      @verbatim (language="comment", text=
+        "The list of all loaded gains.")
+      sequence<string> loaded;
+
+      @verbatim (language="comment", text=
+        "The list of gains which are available for the currently active state estimator.")
+      sequence<string> available;
+
+      @verbatim (language="comment", text=
+        "The name of the current gains.")
+      string current_name;
+
+      @verbatim (language="comment", text=
+        "The particular values of the current gains.")
+      mrs_msgs::msg::Se3Gains current_values;
+    };
+  };
+};

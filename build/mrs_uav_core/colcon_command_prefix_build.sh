@@ -1,0 +1,13 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/gaurav/mrs_workspace/install/mrs_msgs/share/mrs_msgs/package.sh"
+. "/home/gaurav/mrs_workspace/install/mrs_lib/share/mrs_lib/package.sh"
+. "/home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/package.sh"
+. "/home/gaurav/mrs_workspace/install/mrs_uav_testing/share/mrs_uav_testing/package.sh"
+. "/home/gaurav/mrs_workspace/install/mrs_uav_autostart/share/mrs_uav_autostart/package.sh"
+. "/home/gaurav/mrs_workspace/install/mrs_uav_hw_api/share/mrs_uav_hw_api/package.sh"
+. "/home/gaurav/mrs_workspace/install/mrs_uav_trajectory_generation/share/mrs_uav_trajectory_generation/package.sh"
+. "/home/gaurav/mrs_workspace/install/mrs_multirotor_simulator/share/mrs_multirotor_simulator/package.sh"
+. "/home/gaurav/mrs_workspace/install/mrs_uav_managers/share/mrs_uav_managers/package.sh"
+. "/home/gaurav/mrs_workspace/install/mrs_uav_controllers/share/mrs_uav_controllers/package.sh"
+. "/home/gaurav/mrs_workspace/install/mrs_uav_state_estimators/share/mrs_uav_state_estimators/package.sh"
+. "/home/gaurav/mrs_workspace/install/mrs_uav_trackers/share/mrs_uav_trackers/package.sh"

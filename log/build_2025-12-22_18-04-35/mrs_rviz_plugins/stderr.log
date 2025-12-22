@@ -1,0 +1,98 @@
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable FLANN_ROOT is set to:
+
+    /usr
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+  CMakeLists.txt:34 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/src/textured_mesh_display/surface_normals_visual.cpp:27[m[K:
+[01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h[m[K’
+    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h"[01;36m[K)[m[K
+      |                                                              [01;36m[K^[m[K
+In file included from [01m[K/home/gaurav/mrs_workspace/build/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/moc_visual.cpp:10[m[K:
+[01m[K/home/gaurav/mrs_workspace/build/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/../../../../../src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/visual.h:[m[K In member function ‘[01m[Kvirtual void mrs_rviz_plugins::sphere::Visual::CameraListener::[01;32m[KcameraPreRenderScene[m[K(Ogre::Camera*)[m[K’:
+[01m[K/home/gaurav/mrs_workspace/build/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/../../../../../src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/visual.h:128:112:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst Ogre::Quaternion& Ogre::Camera::[01;32m[KgetOrientation[m[K() const[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  128 |           q                             = vis_->frame_node_->convertWorldToLocalOrientation([01;35m[Kcam->getOrientation()[m[K);
+      |                                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreLight.h:43[m[K,
+                 from [01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreAutoParamDataSource.h:38[m[K,
+                 from [01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreSceneManager.h:46[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rviz_common/rviz_common/ros_topic_display.hpp:40[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rviz_common/rviz_common/message_filter_display.hpp:38[m[K,
+                 from [01m[K/home/gaurav/mrs_workspace/build/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/../../../../../src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/visual.h:8[m[K:
+[01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreCamera.h:341:43:[m[K [01;36m[Knote: [m[Kdeclared here
+  341 |         OGRE_DEPRECATED const Quaternion& [01;36m[KgetOrientation[m[K(void) const;
+      |                                           [01;36m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/src/sphere/visual.cpp:1[m[K:
+[01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/visual.h:[m[K In member function ‘[01m[Kvirtual void mrs_rviz_plugins::sphere::Visual::CameraListener::[01;32m[KcameraPreRenderScene[m[K(Ogre::Camera*)[m[K’:
+[01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/visual.h:128:112:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst Ogre::Quaternion& Ogre::Camera::[01;32m[KgetOrientation[m[K() const[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  128 |           q                             = vis_->frame_node_->convertWorldToLocalOrientation([01;35m[Kcam->getOrientation()[m[K);
+      |                                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreLight.h:43[m[K,
+                 from [01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreAutoParamDataSource.h:38[m[K,
+                 from [01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreSceneManager.h:46[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rviz_common/rviz_common/ros_topic_display.hpp:40[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rviz_common/rviz_common/message_filter_display.hpp:38[m[K,
+                 from [01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/visual.h:8[m[K:
+[01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreCamera.h:341:43:[m[K [01;36m[Knote: [m[Kdeclared here
+  341 |         OGRE_DEPRECATED const Quaternion& [01;36m[KgetOrientation[m[K(void) const;
+      |                                           [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/src/sphere/visual.cpp:[m[K In member function ‘[01m[Kvoid mrs_rviz_plugins::sphere::Visual::[01;32m[KsetDrawStatic[m[K(bool)[m[K’:
+[01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/src/sphere/visual.cpp:96:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::array<Ogre::ManualObject*, 4>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   96 |       for (int it = 1; [01;35m[Kit < circles_.size()[m[K; it++) {
+      |                        [01;35m[K~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/src/sphere/visual.cpp:[m[K In member function ‘[01m[Kvoid mrs_rviz_plugins::sphere::Visual::[01;32m[KsetDashedStatic[m[K(bool)[m[K’:
+[01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/src/sphere/visual.cpp:135:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::array<Ogre::ManualObject*, 4>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  135 |       for (int it = 1; [01;35m[Kit < circles_.size()[m[K; it++) {
+      |                        [01;35m[K~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/src/sphere/visual.cpp:[m[K In member function ‘[01m[Kvoid mrs_rviz_plugins::sphere::Visual::[01;32m[KsetColor[m[K(float, float, float, float)[m[K’:
+[01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/src/sphere/visual.cpp:160:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::array<Ogre::ManualObject*, 4>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  160 |       for (int it = 0; [01;35m[Kit < circles_.size()[m[K; it++) {
+      |                        [01;35m[K~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/src/sphere/visual.cpp:[m[K In member function ‘[01m[Kvoid mrs_rviz_plugins::sphere::Visual::[01;32m[KsetMessage[m[K(mrs_msgs::msg::Sphere_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/src/sphere/visual.cpp:241:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::array<Ogre::ManualObject*, 4>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  241 |         for (int it = 1; [01;35m[Kit < circles_.size()[m[K; it++) {
+      |                          [01;35m[K~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/gaurav/mrs_workspace/build/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/../../../../../src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/display.h:6[m[K,
+                 from [01m[K/home/gaurav/mrs_workspace/build/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/moc_display.cpp:10[m[K:
+[01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/visual.h:[m[K In member function ‘[01m[Kvirtual void mrs_rviz_plugins::sphere::Visual::CameraListener::[01;32m[KcameraPreRenderScene[m[K(Ogre::Camera*)[m[K’:
+[01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/visual.h:128:112:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst Ogre::Quaternion& Ogre::Camera::[01;32m[KgetOrientation[m[K() const[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  128 |           q                             = vis_->frame_node_->convertWorldToLocalOrientation([01;35m[Kcam->getOrientation()[m[K);
+      |                                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreLight.h:43[m[K,
+                 from [01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreAutoParamDataSource.h:38[m[K,
+                 from [01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreSceneManager.h:46[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rviz_common/rviz_common/ros_topic_display.hpp:40[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rviz_common/rviz_common/message_filter_display.hpp:38[m[K,
+                 from [01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/visual.h:8[m[K:
+[01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreCamera.h:341:43:[m[K [01;36m[Knote: [m[Kdeclared here
+  341 |         OGRE_DEPRECATED const Quaternion& [01;36m[KgetOrientation[m[K(void) const;
+      |                                           [01;36m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/display.h:6[m[K,
+                 from [01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/src/sphere/display.cpp:3[m[K:
+[01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/visual.h:[m[K In member function ‘[01m[Kvirtual void mrs_rviz_plugins::sphere::Visual::CameraListener::[01;32m[KcameraPreRenderScene[m[K(Ogre::Camera*)[m[K’:
+[01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/visual.h:128:112:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst Ogre::Quaternion& Ogre::Camera::[01;32m[KgetOrientation[m[K() const[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  128 |           q                             = vis_->frame_node_->convertWorldToLocalOrientation([01;35m[Kcam->getOrientation()[m[K);
+      |                                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreLight.h:43[m[K,
+                 from [01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreAutoParamDataSource.h:38[m[K,
+                 from [01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreSceneManager.h:46[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rviz_common/rviz_common/ros_topic_display.hpp:40[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rviz_common/rviz_common/message_filter_display.hpp:38[m[K,
+                 from [01m[K/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_rviz_plugins/include/mrs_rviz_plugins/sphere/visual.h:8[m[K:
+[01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreCamera.h:341:43:[m[K [01;36m[Knote: [m[Kdeclared here
+  341 |         OGRE_DEPRECATED const Quaternion& [01;36m[KgetOrientation[m[K(void) const;
+      |                                           [01;36m[K^~~~~~~~~~~~~~[m[K

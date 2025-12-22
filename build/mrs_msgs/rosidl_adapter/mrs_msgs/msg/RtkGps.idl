@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/gnss/RtkGps.msg
+// generated code does not contain a copyright notice
+
+#include "mrs_msgs/msg/GpsData.idl"
+#include "mrs_msgs/msg/RtkFixType.idl"
+#include "sensor_msgs/msg/NavSatStatus.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mrs_msgs {
+  module msg {
+    struct RtkGps {
+      std_msgs::msg::Header header;
+
+      mrs_msgs::msg::GpsData gps;
+
+      sensor_msgs::msg::NavSatStatus status;
+
+      mrs_msgs::msg::RtkFixType fix_type;
+    };
+  };
+};

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mrs_msgs/srv/general/Vec1.srv
+// generated code does not contain a copyright notice
+
+
+module mrs_msgs {
+  module srv {
+    struct Vec1_Request {
+      double goal;
+    };
+    struct Vec1_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

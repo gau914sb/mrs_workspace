@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/mpc_tracker/MpcPredictionFullState.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mrs_msgs {
+  module msg {
+    struct MpcPredictionFullState {
+      std_msgs::msg::Header header;
+
+      int64 input_id;
+
+      sequence<builtin_interfaces::msg::Time> stamps;
+
+      sequence<geometry_msgs::msg::Point> position;
+
+      sequence<geometry_msgs::msg::Quaternion> orientation;
+
+      sequence<geometry_msgs::msg::Vector3> attitude_rate;
+
+      sequence<geometry_msgs::msg::Vector3> velocity;
+
+      sequence<geometry_msgs::msg::Vector3> acceleration;
+
+      sequence<geometry_msgs::msg::Vector3> jerk;
+
+      sequence<double> heading;
+
+      sequence<double> heading_rate;
+
+      sequence<double> heading_acceleration;
+
+      sequence<double> heading_jerk;
+
+      uint8 use_orientation;
+
+      uint8 use_attitude_rate;
+    };
+  };
+};

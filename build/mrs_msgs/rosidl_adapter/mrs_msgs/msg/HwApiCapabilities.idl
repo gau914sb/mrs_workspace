@@ -1,0 +1,65 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_msgs/msg/hw_api/HwApiCapabilities.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module mrs_msgs {
+  module msg {
+    struct HwApiCapabilities {
+      builtin_interfaces::msg::Time stamp;
+
+      string api_name;
+
+      boolean accepts_actuator_cmd;
+
+      boolean accepts_attitude_cmd;
+
+      boolean accepts_attitude_rate_cmd;
+
+      boolean accepts_control_group_cmd;
+
+      boolean accepts_acceleration_hdg_rate_cmd;
+
+      boolean accepts_acceleration_hdg_cmd;
+
+      boolean accepts_velocity_hdg_rate_cmd;
+
+      boolean accepts_velocity_hdg_cmd;
+
+      boolean accepts_position_cmd;
+
+      boolean produces_ground_truth;
+
+      boolean produces_gnss;
+
+      boolean produces_gnss_status;
+
+      boolean produces_rtk;
+
+      boolean produces_imu;
+
+      boolean produces_distance_sensor;
+
+      boolean produces_altitude;
+
+      boolean produces_magnetometer_heading;
+
+      boolean produces_rc_channels;
+
+      boolean produces_battery_state;
+
+      boolean produces_position;
+
+      boolean produces_orientation;
+
+      boolean produces_velocity;
+
+      boolean produces_angular_velocity;
+
+      boolean produces_odometry;
+
+      boolean produces_magnetic_field;
+    };
+  };
+};

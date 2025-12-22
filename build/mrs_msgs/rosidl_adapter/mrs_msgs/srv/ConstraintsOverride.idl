@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mrs_msgs/srv/uav_managers/ConstraintsOverride.srv
+// generated code does not contain a copyright notice
+
+
+module mrs_msgs {
+  module srv {
+    struct ConstraintsOverride_Request {
+      double acceleration_horizontal;
+
+      double acceleration_vertical;
+    };
+    struct ConstraintsOverride_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

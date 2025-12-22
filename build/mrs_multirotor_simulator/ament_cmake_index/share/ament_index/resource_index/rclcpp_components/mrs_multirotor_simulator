@@ -1,0 +1,4 @@
+PLUGIN;lib/libMrsMultirotorSimulator_Simulator.so
+mrs_multirotor_simulator::MultirotorSimulator;lib/libMrsMultirotorSimulator_Simulator.so
+EXECUTABLE;lib/libMrsMultirotorSimulator_Simulator.so
+MrsMultirotorSimulator_Simulator;lib/libMrsMultirotorSimulator_Simulator.so

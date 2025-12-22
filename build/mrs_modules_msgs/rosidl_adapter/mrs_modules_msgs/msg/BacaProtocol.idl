@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrs_modules_msgs/msg/mrs_serial/BacaProtocol.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module mrs_modules_msgs {
+  module msg {
+    struct BacaProtocol {
+      builtin_interfaces::msg::Time stamp;
+
+      sequence<uint8> payload;
+
+      @verbatim (language="comment", text=
+        "useful for debugging")
+      uint8 checksum_calculated;
+
+      @verbatim (language="comment", text=
+        "useful for debugging")
+      uint8 checksum_received;
+
+      boolean checksum_correct;
+    };
+  };
+};
