@@ -1,5 +1,0 @@
-std_msgs/Header header
-mrs_msgs/Reference reference
----
-bool success
-string message

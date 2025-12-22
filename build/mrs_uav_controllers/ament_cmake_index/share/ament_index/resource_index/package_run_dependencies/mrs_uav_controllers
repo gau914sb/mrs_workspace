@@ -1,1 +1,0 @@
-rclcpp;rclcpp_components;rclcpp_lifecycle;launch;launch_ros;pluginlib;builtin_interfaces;geometry_msgs;sensor_msgs;eigen;mrs_lib;mrs_msgs;mrs_uav_managers;mrs_mpc_solvers;mrs_uav_testing

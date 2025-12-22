@@ -1,1 +1,0 @@
-/home/gaurav/mrs_workspace/build/mrs_modules_msgs/rosidl_generator_cpp/mrs_modules_msgs/msg/detail/pose_with_size__traits.hpp

@@ -1,1 +1,0 @@
-/home/gaurav/mrs_workspace/build/mrs_uav_flightforge_simulator/rosidl_typesupport_introspection_cpp/mrs_uav_flightforge_simulator/srv/detail/set_orientation__rosidl_typesupport_introspection_cpp.hpp

@@ -1,6 +1,0 @@
-string to_frame_id
-mrs_msgs/ReferenceArray array
----
-bool success
-string message
-mrs_msgs/ReferenceArray array

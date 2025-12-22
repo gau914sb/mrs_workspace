@@ -1,1 +1,0 @@
-/home/gaurav/mrs_workspace/src/mrs_uav_core/ros_packages/mrs_multirotor_simulator/launch/multirotor_simulator.launch.py

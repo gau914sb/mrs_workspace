@@ -1,1 +1,0 @@
-/home/gaurav/mrs_workspace/build/mrs_msgs/ament_cmake_environment_hooks/local_setup.zsh

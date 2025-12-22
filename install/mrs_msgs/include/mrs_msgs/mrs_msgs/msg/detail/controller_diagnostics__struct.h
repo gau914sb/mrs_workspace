@@ -1,1 +1,0 @@
-/home/gaurav/mrs_workspace/build/mrs_msgs/rosidl_generator_c/mrs_msgs/msg/detail/controller_diagnostics__struct.h

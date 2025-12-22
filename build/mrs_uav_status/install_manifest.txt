@@ -1,5 +1,0 @@
-/home/gaurav/mrs_workspace/install/mrs_uav_status/lib/libMrsUavStatus_Acquisition.so
-/home/gaurav/mrs_workspace/install/mrs_uav_status/lib/mrs_uav_status/scripts/get_public_params.py
-/home/gaurav/mrs_workspace/install/mrs_uav_status/lib/mrs_uav_status/scripts/status.sh
-/home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/cmake/export_mrs_uav_statusExport.cmake
-/home/gaurav/mrs_workspace/install/mrs_uav_status/share/mrs_uav_status/cmake/export_mrs_uav_statusExport-release.cmake

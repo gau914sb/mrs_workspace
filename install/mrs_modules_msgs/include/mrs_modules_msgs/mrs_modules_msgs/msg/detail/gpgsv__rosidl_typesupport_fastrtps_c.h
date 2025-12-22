@@ -1,1 +1,0 @@
-/home/gaurav/mrs_workspace/build/mrs_modules_msgs/rosidl_typesupport_fastrtps_c/mrs_modules_msgs/msg/detail/gpgsv__rosidl_typesupport_fastrtps_c.h

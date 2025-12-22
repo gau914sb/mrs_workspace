@@ -1,4 +1,0 @@
-mrs_msgs/Path path
----
-bool success
-string message

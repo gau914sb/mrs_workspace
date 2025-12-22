@@ -1,1 +1,0 @@
-/home/gaurav/mrs_workspace/build/mrs_msgs/rosidl_generator_c/mrs_msgs/msg/detail/hw_api_attitude_rate_cmd__type_support.h

@@ -1,1 +1,0 @@
-rclcpp;rclcpp_components;rclcpp_lifecycle;launch;launch_ros;pluginlib;builtin_interfaces;std_msgs;std_srvs;geometry_msgs;tf2_ros;nav_msgs;eigen;visualization_msgs;tf2_geometry_msgs;mrs_lib;mrs_msgs;mrs_uav_hw_api;mrs_uav_testing;backward_ros;ament_cmake_ros;launch_testing;launch_testing_ament_cmake;rclpy

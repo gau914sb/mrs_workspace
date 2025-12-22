@@ -1,1 +1,0 @@
-/home/gaurav/mrs_workspace/build/mrs_modules_msgs/rosidl_typesupport_introspection_c/mrs_modules_msgs/msg/detail/trackstat_channel__rosidl_typesupport_introspection_c.h

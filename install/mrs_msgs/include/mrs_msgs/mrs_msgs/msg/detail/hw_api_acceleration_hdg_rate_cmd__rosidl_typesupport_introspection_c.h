@@ -1,1 +1,0 @@
-/home/gaurav/mrs_workspace/build/mrs_msgs/rosidl_typesupport_introspection_c/mrs_msgs/msg/detail/hw_api_acceleration_hdg_rate_cmd__rosidl_typesupport_introspection_c.h

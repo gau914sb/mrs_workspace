@@ -1,1 +1,0 @@
-/home/gaurav/mrs_workspace/src/mrs_uav_modules/ros_packages/mrs_modules_msgs/msg/mrs_pcl_tools/PclToolsDiagnostics.msg

@@ -1,1 +1,0 @@
-/home/gaurav/mrs_workspace/build/mrs_modules_msgs/rosidl_generator_c/mrs_modules_msgs/msg/detail/gimbal_pry__type_support.h

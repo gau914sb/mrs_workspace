@@ -1,3 +1,0 @@
-source;share/mrs_uav_autostart/environment/ament_prefix_path.sh
-source;share/mrs_uav_autostart/environment/library_path.sh
-source;share/mrs_uav_autostart/environment/path.sh

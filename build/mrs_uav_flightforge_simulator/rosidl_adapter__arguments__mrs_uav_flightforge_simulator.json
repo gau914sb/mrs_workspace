@@ -1,6 +1,0 @@
-{
-  "package_name": "mrs_uav_flightforge_simulator",
-  "non_idl_tuples": [
-    "/home/gaurav/mrs_workspace/src/mrs_uav_flightforge_simulator:srv/SetOrientation.srv"
-  ]
-}

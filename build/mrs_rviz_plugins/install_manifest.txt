@@ -1,4 +1,0 @@
-/home/gaurav/mrs_workspace/install/mrs_rviz_plugins/lib/libMrsRvizPlugins_Sphere.so
-/home/gaurav/mrs_workspace/install/mrs_rviz_plugins/lib/libMrsRvizPlugins_TexturedMeshDisplay.so
-/home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/cmake/export_mrs_rviz_pluginsExport.cmake
-/home/gaurav/mrs_workspace/install/mrs_rviz_plugins/share/mrs_rviz_plugins/cmake/export_mrs_rviz_pluginsExport-release.cmake

@@ -1,1 +1,0 @@
-/home/gaurav/mrs_workspace/build/mrs_msgs/rosidl_generator_c/mrs_msgs/srv/detail/velocity_reference_stamped_srv__functions.h

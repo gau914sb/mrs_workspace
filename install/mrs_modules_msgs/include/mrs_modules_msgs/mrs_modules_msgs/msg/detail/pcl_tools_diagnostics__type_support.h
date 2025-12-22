@@ -1,1 +1,0 @@
-/home/gaurav/mrs_workspace/build/mrs_modules_msgs/rosidl_generator_c/mrs_modules_msgs/msg/detail/pcl_tools_diagnostics__type_support.h

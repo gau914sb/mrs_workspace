@@ -1,4 +1,0 @@
-source;share/mrs_uav_deployment/local_setup.bash
-source;share/mrs_uav_deployment/local_setup.dsv
-source;share/mrs_uav_deployment/local_setup.sh
-source;share/mrs_uav_deployment/local_setup.zsh

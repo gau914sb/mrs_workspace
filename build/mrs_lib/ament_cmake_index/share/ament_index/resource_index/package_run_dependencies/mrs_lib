@@ -1,1 +1,0 @@
-rclcpp;std_msgs;mrs_msgs;launch_ros;geometry_msgs;tf2_geometry_msgs;pcl_ros;libopencv-dev;libboost-dev;visualization_msgs;eigen;yaml-cpp;ament_cmake_ros;launch;launch_testing;launch_testing_ament_cmake;rclpy

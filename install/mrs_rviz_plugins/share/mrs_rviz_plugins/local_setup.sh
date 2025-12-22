@@ -1,1 +1,0 @@
-/home/gaurav/mrs_workspace/build/mrs_rviz_plugins/ament_cmake_environment_hooks/local_setup.sh

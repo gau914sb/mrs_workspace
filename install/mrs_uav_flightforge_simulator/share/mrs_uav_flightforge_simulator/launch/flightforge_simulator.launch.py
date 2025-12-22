@@ -1,1 +1,0 @@
-/home/gaurav/mrs_workspace/src/mrs_uav_flightforge_simulator/launch/flightforge_simulator.launch.py

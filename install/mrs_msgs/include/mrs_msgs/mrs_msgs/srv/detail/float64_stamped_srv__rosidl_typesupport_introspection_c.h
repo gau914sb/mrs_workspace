@@ -1,1 +1,0 @@
-/home/gaurav/mrs_workspace/build/mrs_msgs/rosidl_typesupport_introspection_c/mrs_msgs/srv/detail/float64_stamped_srv__rosidl_typesupport_introspection_c.h
