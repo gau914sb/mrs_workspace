@@ -1,0 +1,20 @@
+[submodule "src/mrs_uav_core"]
+	path = src/mrs_uav_core
+	url = https://github.com/ctu-mrs/mrs_uav_core.git
+	branch = ros2
+[submodule "src/mrs_uav_modules"]
+	path = src/mrs_uav_modules
+	url = https://github.com/ctu-mrs/mrs_uav_modules.git
+	branch = ros2
+[submodule "src/mrs_uav_system"]
+	path = src/mrs_uav_system
+	url = https://github.com/ctu-mrs/mrs_uav_system.git
+	branch = ros2
+[submodule "src/mrs_uav_deployment"]
+	path = src/mrs_uav_deployment
+	url = https://github.com/ctu-mrs/mrs_uav_deployment.git
+	branch = ros2
+[submodule "src/mrs_uav_flightforge_simulator"]
+	path = src/mrs_uav_flightforge_simulator
+	url = https://github.com/ctu-mrs/mrs_uav_flightforge_simulator.git
+	branch = ros2
